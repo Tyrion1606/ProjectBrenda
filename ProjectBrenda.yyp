@@ -1,5 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"Spr_RedBall","path":"sprites/Spr_RedBall/Spr_RedBall.yy",},"order":0,},
+    {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":3,},
+    {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":2,},
+    {"id":{"name":"Spr_bullet","path":"sprites/Spr_bullet/Spr_bullet.yy",},"order":3,},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
+    {"id":{"name":"Spr_Cannon","path":"sprites/Spr_Cannon/Spr_Cannon.yy",},"order":1,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"Obj_Instanciator","path":"objects/Obj_Instanciator/Obj_Instanciator.yy",},"order":1,},
+    {"id":{"name":"Scr_LookingForMouse","path":"scripts/Scr_LookingForMouse/Scr_LookingForMouse.yy",},"order":0,},
+    {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -9,7 +19,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
