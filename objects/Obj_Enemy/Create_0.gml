@@ -1,2 +1,4 @@
-HP = 3;
-path_start(Path1, 2, path_action_stop, true);
+HP = 10;		// Sets the Initial Life
+MoveSpeed = 2;	// The move speed of the enemy instance
+
+path_start(Path1, MoveSpeed, path_action_stop, true); // Starts to move ABSOLUTELY in the path and stops at the end.

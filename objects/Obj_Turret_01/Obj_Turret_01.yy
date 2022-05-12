@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_RedBall",
-    "path": "sprites/Spr_RedBall/Spr_RedBall.yy",
+    "name": "Spr_Turret_01",
+    "path": "sprites/Spr_Turret_01/Spr_Turret_01.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Turret_01_Bullet","path":"objects/Obj_Turret_01_Bullet/Obj_Turret_01_Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Turret_01",
+    "path": "folders/Objects/Turret_01.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Enemy",
+  "name": "Obj_Turret_01",
   "tags": [],
   "resourceType": "GMObject",
 }

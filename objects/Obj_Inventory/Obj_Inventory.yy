@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_RedBall",
-    "path": "sprites/Spr_RedBall/Spr_RedBall.yy",
+    "name": "Spr_Moldura",
+    "path": "sprites/Spr_Moldura/Spr_Moldura.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Turret_01_Bullet","path":"objects/Obj_Turret_01_Bullet/Obj_Turret_01_Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "GUI_Components",
+    "path": "folders/Objects/GUI_Components.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Enemy",
+  "name": "Obj_Inventory",
   "tags": [],
   "resourceType": "GMObject",
 }
