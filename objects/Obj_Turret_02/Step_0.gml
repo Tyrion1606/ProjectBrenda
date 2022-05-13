@@ -19,5 +19,4 @@ if (instance_exists(Obj_Enemy)){
 	var Nearest = instance_nearest(id.x, id.y, Obj_Enemy);
 	image_angle = point_direction(id.x, id.y, Nearest.x, Nearest.y);
 }
-
 #endregion

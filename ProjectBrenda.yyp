@@ -27,6 +27,7 @@
     {"id":{"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"order":10,},
     {"id":{"name":"Spr_Moldura","path":"sprites/Spr_Moldura/Spr_Moldura.yy",},"order":4,},
     {"id":{"name":"Obj_Turret_01_Shadow","path":"objects/Obj_Turret_01_Shadow/Obj_Turret_01_Shadow.yy",},"order":1,},
+    {"id":{"name":"Scr_Search","path":"scripts/Scr_Search/Scr_Search.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

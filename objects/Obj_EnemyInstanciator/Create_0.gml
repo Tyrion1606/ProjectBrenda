@@ -1,5 +1,5 @@
-i = 1;	// Declares the counter for the instanciation
+CreationDelay = 0.5;	// Manage delay betwen each enemy creation
 
 enemies = [ Obj_Enemy, Obj_Enemy_2, Obj_Enemy_3 ]; // Declares enemy types
 
-alarm[0] = room_speed * i;
+alarm[0] = room_speed * CreationDelay;
