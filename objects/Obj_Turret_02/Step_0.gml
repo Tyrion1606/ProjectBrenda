@@ -8,7 +8,8 @@ if (Firing && collision_circle(x, y, FireRadius, Obj_Enemy, false, true)){
 	
 	// Set the position of the target
 	var Position = instance_nearest(id.x, id.y, Obj_Enemy);
-	Bomb.Target = [Position.x, Position.y]
+	Bomb.Target = [Position.x, Position.y];
+	show_debug_message(Bomb.Target);
 	
 	// Set the distance to the target
 	Bomb.TargetDistance = distance_to_object(instance_nearest(id.x, id.y, Obj_Enemy));
