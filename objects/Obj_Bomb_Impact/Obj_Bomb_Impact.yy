@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Turret_02",
-    "path": "sprites/Spr_Turret_02/Spr_Turret_02.yy",
+    "name": "Spt_bomb_impact",
+    "path": "sprites/Spt_bomb_impact/Spt_bomb_impact.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +30,7 @@
     "path": "folders/Objects/Turret_02.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Turret_02",
+  "name": "Obj_Bomb_Impact",
   "tags": [],
   "resourceType": "GMObject",
 }
