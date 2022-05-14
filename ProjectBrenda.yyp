@@ -56,7 +56,6 @@
     {"id":{"name":"spr_login","path":"sprites/spr_login/spr_login.yy",},"order":41,},
     {"id":{"name":"spr_keybindings","path":"sprites/spr_keybindings/spr_keybindings.yy",},"order":35,},
     {"id":{"name":"spr_bestscore","path":"sprites/spr_bestscore/spr_bestscore.yy",},"order":6,},
-    {"id":{"name":"Obj_Pause_NotWorking","path":"objects/Obj_Pause_NotWorking/Obj_Pause_NotWorking.yy",},"order":3,},
     {"id":{"name":"spr_quitgame","path":"sprites/spr_quitgame/spr_quitgame.yy",},"order":64,},
     {"id":{"name":"Obj_Turret_02_Instanciator","path":"objects/Obj_Turret_02_Instanciator/Obj_Turret_02_Instanciator.yy",},"order":1,},
     {"id":{"name":"spr_graphics","path":"sprites/spr_graphics/spr_graphics.yy",},"order":26,},
