@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Turret_01",
+    "path": "folders/Sprites/Turrets/Turret_01.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_StoredTurret_01",

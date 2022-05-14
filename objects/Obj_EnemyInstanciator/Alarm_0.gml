@@ -6,9 +6,7 @@
 enemy = enemies[irandom_range(0, array_length(enemies)-1)];
 
 // Instanciate an enemy
-var tempEnemy = instance_create_layer(5, 5, "Instances", enemy); 
+instance_create_layer(5, 5, "Instances", enemy); 
 
 // Reset alarm
 alarm[0] = room_speed * i;
-
-
