@@ -1,0 +1,1 @@
+global.Dinheiros += id.EnemyDeathValue;;
