@@ -9,4 +9,6 @@ enemy = enemies[irandom_range(0, array_length(enemies)-1)];
 instance_create_layer(5, 5, "Instances", enemy); 
 
 // Reset alarm
-alarm[0] = room_speed * i;
+alarm[0] = room_speed * CreationDelay;
+
+
