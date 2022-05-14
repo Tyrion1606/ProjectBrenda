@@ -1,21 +1,13 @@
 #region Fire
 // Creates the bulets with certain fire-rate and seting its speed
-if (Firing && collision_circle(x, y, FireRadius, Obj_Enemy, false, true)){
-	
-	var Bomb = instance_create_layer(x, y, "Instances", Obj_Turret_02_Bomb);
-	Bomb.direction = id.image_angle;
-	Bomb.speed = BulletSpeed;
-	
-	// Set the position of the target
-	var Position = instance_nearest(id.x, id.y, Obj_Enemy);
-	Bomb.Target = [Position.x, Position.y]
-	
-	// Set the distance to the target
-	Bomb.TargetDistance = distance_to_object(instance_nearest(id.x, id.y, Obj_Enemy));
-	
-	// Reset the cooldown to fire
-	Firing = false;
-	alarm[0] = Cooldown;
+if (Firing){
+	i++;
+	if(i > 10){
+		var Bullet = instance_create_layer(x,y,"Instances",Obj_Turret_01_Bullet);
+		Bullet.direction = id.image_angle;
+		Bullet.speed = BulletSpeed;
+		i=0;
+	}
 }
 
 #endregion
@@ -27,5 +19,4 @@ if (instance_exists(Obj_Enemy)){
 	var Nearest = instance_nearest(id.x, id.y, Obj_Enemy);
 	image_angle = point_direction(id.x, id.y, Nearest.x, Nearest.y);
 }
-
 #endregion
