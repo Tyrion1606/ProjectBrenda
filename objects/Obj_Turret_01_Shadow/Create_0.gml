@@ -11,4 +11,4 @@ X_MarginMin = sprite_width;
 X_MarginMax = room_width*0.8;
 Y_MarginMin = sprite_height;
 Y_MarginMax = room_height;
-// main 14/05/2022 16h21 0.
+// main 14/05/2022 16h21 0.1
