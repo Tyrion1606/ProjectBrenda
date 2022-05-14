@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_Search",
+  "name": "Scr_Path_SearchModes",
   "tags": [],
   "resourceType": "GMScript",
 }

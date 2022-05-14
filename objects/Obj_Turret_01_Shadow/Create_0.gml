@@ -1,3 +1,4 @@
+Turret01Value = 10;
 AntibugDelay = 20;		// It inhibits the bug that creates a turret just after clicking the 
 						// instantiator by waiting a time before it can create a turret
 
