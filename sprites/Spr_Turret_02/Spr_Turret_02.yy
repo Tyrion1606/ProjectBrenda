@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Turret_02",
-    "path": "folders/Sprites/Turrets/Turret_02.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Turret_02",
