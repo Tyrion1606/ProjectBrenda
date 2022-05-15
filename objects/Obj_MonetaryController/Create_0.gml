@@ -1,1 +1,1 @@
-global.Dinheiros = 10;
+global.Dinheiros = 20;
