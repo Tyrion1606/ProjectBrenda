@@ -1,1 +1,1 @@
-Scr_GridDisplay(32);	//Calls the Script that creates a grid
+Scr_GridDisplay(32);	//Calls the Script that creates a grid on the Room

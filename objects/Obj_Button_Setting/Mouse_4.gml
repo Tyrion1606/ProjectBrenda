@@ -1,1 +1,1 @@
-room_goto(SettingsRoom);
+room_goto(SettingsRoom);	// Goes to the settings room

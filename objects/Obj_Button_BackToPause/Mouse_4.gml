@@ -1,1 +1,1 @@
-room_goto(PauseRoom);
+room_goto(PauseRoom);	// When Pressed, Goes Directly to PauseScreen

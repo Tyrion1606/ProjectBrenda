@@ -1,2 +1,1 @@
-draw_text(bbox_left+2,bbox_top,global.Dinheiros);
-id.depth = Obj_Turret_01_Instanciator.depth+1;
+id.depth = Obj_Turret_01_Instanciator.depth+1; // Keeps it behind the instanciators by setting it deeper

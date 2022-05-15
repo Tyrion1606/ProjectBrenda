@@ -1,1 +1,1 @@
-game_end();
+game_end();	// Closes the game

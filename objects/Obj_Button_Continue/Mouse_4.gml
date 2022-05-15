@@ -1,6 +1,7 @@
-if (file_exists("SaveArchive")){
+if (file_exists("SaveArchive")){	// Se o arquivo de save existe, carrega
 	var ContinueBuffer =  buffer_load("SaveArchive");	// Carrega os dados no buffer
 	
+	#region Reads any saved data from the bugger to its respective Variable/Array
 	global.Level = buffer_read(ContinueBuffer,buffer_u8);
 	global.EXP = buffer_read(ContinueBuffer, buffer_u32);
 	
@@ -21,7 +22,10 @@ if (file_exists("SaveArchive")){
 
 	global.Upgrade[3][0] = buffer_read(ContinueBuffer,buffer_u8);	// T4: Damage
 	global.Upgrade[3][1] = buffer_read(ContinueBuffer,buffer_u8);	// T4: range
+	#endregion
 	
+	#region Shows some loaded data (Comented now)
+	/*
 	show_debug_message(global.Level);
 	show_debug_message(global.EXP);
 	show_debug_message(global.Upgrade[0][0]);
@@ -29,7 +33,11 @@ if (file_exists("SaveArchive")){
 	show_debug_message(global.Upgrade[2][0]);
 	show_debug_message(global.Upgrade[3][0]);
 	show_debug_message(global.Upgrade[3][1]);
-} else {
-	show_debug_message("arquivo não existe");
+	*/
+	#endregion
+	
+} else {	// Se o arquivo de save NÃO existe, Inicia um novo jogo
+	show_debug_message("Arquivo de save não existe, Iniciaremos um novo jogo");
+	room_goto(Room1);
 }
 

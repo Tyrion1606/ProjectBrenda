@@ -1,1 +1,1 @@
-Scr_PauseToggle();
+Scr_PauseToggle();	// if paused, runs... if runing, pause.

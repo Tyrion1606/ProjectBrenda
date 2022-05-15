@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_exit",
-    "path": "sprites/spr_exit/spr_exit.yy",
+    "name": "Spr_Plus",
+    "path": "sprites/Spr_Plus/Spr_Plus.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "LabeledButtons",
-    "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
+    "name": "UpgradeButtons",
+    "path": "folders/Objects/GUI_Components/Buttons/UpgradeButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Button_Exit",
+  "name": "Obj_Plus_T1AtkSpeed",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI_Components",
-    "path": "folders/Objects/GUI_Components.yy",
+    "name": "LabeledButtons",
+    "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Button_Continue",

@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI_Components",
-    "path": "folders/Objects/GUI_Components.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/GUI_Components/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_FullScreenToggle_ChkBx",
