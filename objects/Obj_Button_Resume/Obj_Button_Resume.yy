@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "Spr_S",
-    "path": "sprites/Spr_S/Spr_S.yy",
+    "name": "spr_resume",
+    "path": "sprites/spr_resume/spr_resume.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "Obj_Buttons",
+    "path": "objects/Obj_Buttons/Obj_Buttons.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":83,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "GUI_Components",
+    "path": "folders/Objects/GUI_Components.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Save_Load",
+  "name": "Obj_Button_Resume",
   "tags": [],
   "resourceType": "GMObject",
 }
