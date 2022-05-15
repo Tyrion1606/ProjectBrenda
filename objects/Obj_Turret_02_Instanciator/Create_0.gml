@@ -4,5 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-TurretValue = 15;
-TurretObject = Obj_Turret_02;
+TurretShadow = Obj_Turret_02_Shadow;
