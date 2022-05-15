@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-TurretShadow = Obj_Turret_01_Shadow;
+TurretShadow = Obj_Turret_03_Shadow;

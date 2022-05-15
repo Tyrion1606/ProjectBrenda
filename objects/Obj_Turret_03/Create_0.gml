@@ -4,7 +4,11 @@
 // Inherit the parent event
 event_inherited();
 
-Firing = true;	// Says if the turret is in the firing mode or not
-i = 0;	// Just declaretes the counter for FireRate
-BulletSpeed = 10;	// Speed that the bullet goes out from the turret
-AtackRange = 150;
+ShotsNumber = 8; // Number of bullets per shoot
+FireDistance = 100; // Time to the bullets disappears
+TurretCollor = c_yellow;
+Cooldown = 20; // Cooldown to fire the bomb
+BulletSpeed = 7;	// Speed that the bullet goes out from the turret
+AtackRange = 100;	// Radius at which the turret can shoot
+
+alarm[0] = Cooldown; // Start the cooldown to fire

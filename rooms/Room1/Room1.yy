@@ -25,10 +25,10 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Inventory","path":"objects/Obj_Inventory/Obj_Inventory.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":256.0,"resourceVersion":"1.0","name":"inst_20E8E7E5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Turret_01_Instanciator","path":"objects/Obj_Turret_01_Instanciator/Obj_Turret_01_Instanciator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":64.0,"resourceVersion":"1.0","name":"inst_455E7890","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Turret_01_Instanciator","path":"objects/Obj_Turret_01_Instanciator/Obj_Turret_01_Instanciator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":224.0,"resourceVersion":"1.0","name":"inst_2A2E4022","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Turret_01_Instanciator","path":"objects/Obj_Turret_01_Instanciator/Obj_Turret_01_Instanciator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":304.0,"resourceVersion":"1.0","name":"inst_3F889C61","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Turret_01_Instanciator","path":"objects/Obj_Turret_01_Instanciator/Obj_Turret_01_Instanciator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":384.0,"resourceVersion":"1.0","name":"inst_3B24E11A","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMRInstanceLayer",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Turret_03_Instanciator","path":"objects/Obj_Turret_03_Instanciator/Obj_Turret_03_Instanciator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":256.0,"resourceVersion":"1.0","name":"inst_1BA784A5","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":30,"SerialiseHeight":17,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -57,7 +57,6 @@
   "instanceCreationOrder": [
     {"name":"inst_20E8E7E5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_455E7890","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2A2E4022","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3F889C61","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3B24E11A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6EC2721B","path":"rooms/Room1/Room1.yy",},
@@ -65,6 +64,7 @@
     {"name":"inst_7CBE4D7D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_68A725AF","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6D7C546D","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1BA784A5","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -2,5 +2,5 @@
 event_inherited();
 
 TurretValue = 10;
-TurretObject = Obj_Turret_01;
+TurretObject = Obj_Turret_03;
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_StoredTurret_01",
-    "path": "sprites/Spr_StoredTurret_01/Spr_StoredTurret_01.yy",
+    "name": "Spr_StoredTurret_03",
+    "path": "sprites/Spr_StoredTurret_03/Spr_StoredTurret_03.yy",
   },
   "solid": false,
   "visible": true,

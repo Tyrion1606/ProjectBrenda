@@ -116,12 +116,8 @@
     {"id":{"name":"Scr_GridDisplay","path":"scripts/Scr_GridDisplay/Scr_GridDisplay.yy",},"order":1,},
     {"id":{"name":"spr_hard","path":"sprites/spr_hard/spr_hard.yy",},"order":27,},
     {"id":{"name":"spr_contactus","path":"sprites/spr_contactus/spr_contactus.yy",},"order":9,},
-
     {"id":{"name":"Spr_EnemyInstanciator","path":"sprites/Spr_EnemyInstanciator/Spr_EnemyInstanciator.yy",},"order":14,},
-
-    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":14,},
     {"id":{"name":"Obj_Turret_Shadow","path":"objects/Obj_Turret_Shadow/Obj_Turret_Shadow.yy",},"order":0,},
-
     {"id":{"name":"PauseRoom","path":"rooms/PauseRoom/PauseRoom.yy",},"order":1,},
     {"id":{"name":"spr_tumblr","path":"sprites/spr_tumblr/spr_tumblr.yy",},"order":92,},
     {"id":{"name":"Obj_RoomController","path":"objects/Obj_RoomController/Obj_RoomController.yy",},"order":1,},
