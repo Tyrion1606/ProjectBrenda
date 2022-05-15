@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 31,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"LayerId":{"name":"1650c212-b38d-4202-b12c-6782c08d558c","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Icon_","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"resourceVersion":"1.0","name":"e487e100-4904-4870-80db-67f8d781a267","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},"LayerId":{"name":"1650c212-b38d-4202-b12c-6782c08d558c","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Icon_MonetaryController","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},"resourceVersion":"1.0","name":"e487e100-4904-4870-80db-67f8d781a267","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Icon_","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},
+    "spriteId": {"name":"Spr_Icon_MonetaryController","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e5009ab0-8a73-4539-be74-2d0a8a5b0a0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e5009ab0-8a73-4539-be74-2d0a8a5b0a0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e487e100-4904-4870-80db-67f8d781a267","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Icon_","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},
+    "parent": {"name":"Spr_Icon_MonetaryController","path":"sprites/Spr_Icon_MonetaryController/Spr_Icon_MonetaryController.yy",},
     "resourceVersion": "1.4",
-    "name": "Spr_Icon_",
+    "name": "Spr_Icon_MonetaryController",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Icon_",
+  "name": "Spr_Icon_MonetaryController",
   "tags": [],
   "resourceType": "GMSprite",
 }

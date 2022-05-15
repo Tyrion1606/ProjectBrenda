@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Spr_EnemyInstanciator",
-    "path": "sprites/Spr_EnemyInstanciator/Spr_EnemyInstanciator.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,10 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +25,7 @@
     "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_EnemyInstanciator",
+  "name": "Obj_SettingsController",
   "tags": [],
   "resourceType": "GMObject",
 }
