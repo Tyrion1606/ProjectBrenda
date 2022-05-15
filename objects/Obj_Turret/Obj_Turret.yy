@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "Spr_StoredTurret_02",
-    "path": "sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Turret_Instanciator",
-    "path": "objects/Obj_Turret_Instanciator/Obj_Turret_Instanciator.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,15 +19,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Turret_02",
-    "path": "folders/Objects/Turrets/Turret_02.yy",
+    "name": "Turret_00",
+    "path": "folders/Objects/Turrets/Turret_00.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Turret_02_Instanciator",
+  "name": "Obj_Turret",
   "tags": [],
   "resourceType": "GMObject",
 }
