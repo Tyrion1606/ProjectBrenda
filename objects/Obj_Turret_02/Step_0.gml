@@ -13,7 +13,7 @@ if (instance_exists(Obj_Enemy)){
 
 #region Fire
 // Creates the bulets with certain fire-rate and seting its speed
-if (Firing && collision_circle(x, y, FireRadius, Obj_Enemy, false, true)){
+if (Firing && collision_circle(x, y, AtackRange, Obj_Enemy, false, true)){
 	
 	var Bomb = instance_create_layer(x, y, "Instances", Obj_Turret_02_Bomb);
 	Bomb.direction = id.image_angle;
