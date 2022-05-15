@@ -102,6 +102,7 @@
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":0,},
     {"id":{"name":"Spr_StoredTurret_01","path":"sprites/Spr_StoredTurret_01/Spr_StoredTurret_01.yy",},"order":0,},
     {"id":{"name":"spr_insane","path":"sprites/spr_insane/spr_insane.yy",},"order":32,},
+    {"id":{"name":"Spr_Icon_","path":"sprites/Spr_Icon_/Spr_Icon_.yy",},"order":20,},
     {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},"order":28,},
     {"id":{"name":"spr_yes","path":"sprites/spr_yes/spr_yes.yy",},"order":97,},
     {"id":{"name":"Scr_GridDisplay","path":"scripts/Scr_GridDisplay/Scr_GridDisplay.yy",},"order":1,},
