@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Turret_01",
-    "path": "folders/Objects/Turret_01.yy",
+    "path": "folders/Objects/Turrets/Turret_01.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Turret_01",
