@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_RedBall",
-    "path": "sprites/Spr_RedBall/Spr_RedBall.yy",
+    "name": "Spr_Caravan_Front",
+    "path": "sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,6 +25,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Turret_01_Bullet","path":"objects/Obj_Turret_01_Bullet/Obj_Turret_01_Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_BlueBall",
-    "path": "sprites/Spr_BlueBall/Spr_BlueBall.yy",
+    "name": "Spr_Spider_Right",
+    "path": "sprites/Spr_Spider_Right/Spr_Spider_Right.yy",
   },
   "solid": false,
   "visible": true,
