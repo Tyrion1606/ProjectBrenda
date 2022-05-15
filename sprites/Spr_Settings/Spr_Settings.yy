@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ConfigObjectsIcons",
+    "path": "folders/Sprites/ConfigObjectsIcons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Settings",

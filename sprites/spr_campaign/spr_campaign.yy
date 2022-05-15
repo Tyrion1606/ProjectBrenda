@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "ICONS",
-    "path": "folders/Sprites/ICONS.yy",
+    "path": "folders/Sprites/Buttons/ICONS.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_campaign",

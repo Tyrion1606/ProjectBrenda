@@ -28,7 +28,7 @@ function Scr_SaveSystem(){
 	buffer_save(SaveBuffer,"SaveArchive");	// Salva em um arquivo
 }
 
-function Scr_LoadSystem(){
+function Scr_LoadSystem(){	// a melhorar... (work in progress)
 	var LoadBuffer = buffer_load("SaveArchive");
 	/*
 	var Level_data = buffer_read(LoadBuffer, buffer_u8);		// Pega o level 8b[0~255]
