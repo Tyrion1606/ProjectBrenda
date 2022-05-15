@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spr_load","path":"sprites/spr_load/spr_load.yy",},"order":39,},
-    {"id":{"name":"Obj_GameController","path":"objects/Obj_GameController/Obj_GameController.yy",},"order":2,},
     {"id":{"name":"Obj_Bomb_Impact","path":"objects/Obj_Bomb_Impact/Obj_Bomb_Impact.yy",},"order":4,},
     {"id":{"name":"Scr_PauseToggle","path":"scripts/Scr_PauseToggle/Scr_PauseToggle.yy",},"order":3,},
     {"id":{"name":"spr_customgame","path":"sprites/spr_customgame/spr_customgame.yy",},"order":14,},
@@ -62,6 +61,7 @@
     {"id":{"name":"spr_graphics","path":"sprites/spr_graphics/spr_graphics.yy",},"order":26,},
     {"id":{"name":"spr_resume","path":"sprites/spr_resume/spr_resume.yy",},"order":72,},
     {"id":{"name":"Spr_Turret_02","path":"sprites/Spr_Turret_02/Spr_Turret_02.yy",},"order":1,},
+    {"id":{"name":"Obj_MonetaryController","path":"objects/Obj_MonetaryController/Obj_MonetaryController.yy",},"order":5,},
     {"id":{"name":"Obj_Button_Setting","path":"objects/Obj_Button_Setting/Obj_Button_Setting.yy",},"order":3,},
     {"id":{"name":"Spr_YellowBall","path":"sprites/Spr_YellowBall/Spr_YellowBall.yy",},"order":2,},
     {"id":{"name":"Spr_Turret_01","path":"sprites/Spr_Turret_01/Spr_Turret_01.yy",},"order":1,},
@@ -134,6 +134,7 @@
     {"id":{"name":"spr_multiplayer","path":"sprites/spr_multiplayer/spr_multiplayer.yy",},"order":48,},
     {"id":{"name":"spr_restartgame","path":"sprites/spr_restartgame/spr_restartgame.yy",},"order":71,},
     {"id":{"name":"Spr_Moldura","path":"sprites/Spr_Moldura/Spr_Moldura.yy",},"order":4,},
+    {"id":{"name":"Spr_","path":"sprites/Spr_/Spr_.yy",},"order":19,},
     {"id":{"name":"Obj_Turret_01_Shadow","path":"objects/Obj_Turret_01_Shadow/Obj_Turret_01_Shadow.yy",},"order":1,},
     {"id":{"name":"Obj_Turret_02","path":"objects/Obj_Turret_02/Obj_Turret_02.yy",},"order":0,},
     {"id":{"name":"Scr_Path_SearchModes","path":"scripts/Scr_Path_SearchModes/Scr_Path_SearchModes.yy",},"order":2,},
