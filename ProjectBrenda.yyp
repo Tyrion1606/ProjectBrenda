@@ -133,6 +133,7 @@
     {"id":{"name":"Obj_Turret_03_Instanciator","path":"objects/Obj_Turret_03_Instanciator/Obj_Turret_03_Instanciator.yy",},"order":0,},
     {"id":{"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"order":0,},
     {"id":{"name":"spr_information","path":"sprites/spr_information/spr_information.yy",},"order":31,},
+    {"id":{"name":"LoseScreen","path":"rooms/LoseScreen/LoseScreen.yy",},"order":6,},
     {"id":{"name":"spr_stop","path":"sprites/spr_stop/spr_stop.yy",},"order":87,},
     {"id":{"name":"spr_store","path":"sprites/spr_store/spr_store.yy",},"order":88,},
     {"id":{"name":"spr_singleplayer","path":"sprites/spr_singleplayer/spr_singleplayer.yy",},"order":82,},
@@ -186,6 +187,7 @@
     {"roomId":{"name":"SettingsRoom","path":"rooms/SettingsRoom/SettingsRoom.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"UpgradeScreen","path":"rooms/UpgradeScreen/UpgradeScreen.yy",},},
+    {"roomId":{"name":"LoseScreen","path":"rooms/LoseScreen/LoseScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
