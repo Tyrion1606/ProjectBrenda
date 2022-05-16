@@ -5,7 +5,8 @@
 if (Firing){
 	image_index = 1;
 	// Instanciate the whips to atack
-	MyWhip = instance_create_layer(x, y - sprite_height / 2, "Shoots", Obj_Whip);
+	MyWhip = instance_create_layer(x, y, "Shoots", Obj_Whip);
+	MyWhip.image_angle = id.image_angle;
 	alarm[0] = AtackDuration;
 }
 else{
