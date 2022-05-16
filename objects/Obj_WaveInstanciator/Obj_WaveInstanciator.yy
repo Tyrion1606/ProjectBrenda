@@ -1,12 +1,15 @@
 {
   "spriteId": {
-    "name": "Spr_Icon_Progress",
-    "path": "sprites/Spr_Icon_Progress/Spr_Icon_Progress.yy",
+    "name": "Spr_Waves",
+    "path": "sprites/Spr_Waves/Spr_Waves.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
-  "persistent": true,
+  "spriteMaskId": {
+    "name": "Spr_Waves",
+    "path": "sprites/Spr_Waves/Spr_Waves.yy",
+  },
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,8 +25,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +36,7 @@
     "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_ProgressionControll",
+  "name": "Obj_WaveInstanciator",
   "tags": [],
   "resourceType": "GMObject",
 }
