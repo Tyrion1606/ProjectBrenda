@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-TurretValue = 10;
-TurretObject = Obj_Turret_01;
+if(PlaceTurret)
+	Scr_LookingForMouse();	//Makes the Player looks fot the mouse
