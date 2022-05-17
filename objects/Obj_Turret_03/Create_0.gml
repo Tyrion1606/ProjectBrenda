@@ -7,7 +7,7 @@ event_inherited();
 ShotsNumber = 8; // Number of bullets per shoot
 FireDistance = 100; // Time to the bullets disappears
 TurretCollor = c_yellow;
-Cooldown = 20; // Cooldown to fire the bomb
+Cooldown = 20; // Cooldown to fire
 BulletSpeed = 7;	// Speed that the bullet goes out from the turret
 AtackRange = 100;	// Radius at which the turret can shoot
 
