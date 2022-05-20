@@ -1,14 +1,16 @@
 /// @description Change the status of the atack
 
 #region Fire
-// Creates the bulets with certain fire-rate and seting its speed
+// Creates the whip
 if (Firing){
 	image_index = 1;
 	// Instanciate the whips to atack
-	MyWhip = instance_create_layer(x, y, "Shoots", Obj_Whip);
+	MyWhip = instance_create_layer(x + lengthdir_y(sprite_height/2, image_angle),
+								   y - lengthdir_x(sprite_height/2, image_angle), "Shoots", Obj_Whip);
 	MyWhip.image_angle = id.image_angle;
 	alarm[0] = AtackDuration;
 }
+// destroy the whip
 else{
 	image_index = 0;
 	instance_destroy(MyWhip);

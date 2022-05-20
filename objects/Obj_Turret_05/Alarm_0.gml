@@ -20,7 +20,6 @@ for(var i = 0; i < 4; i++){
 		// Instanciate the frzing shot
 		instance_create_layer(PlacePositions[NextPosition][0], 
 								PlacePositions[NextPosition][1], "Shoots", Obj_Freeze);
-		show_debug_message("Placing fire");
 		Firing = true;	// Normalizes the cooldown
 		break;
 	}
