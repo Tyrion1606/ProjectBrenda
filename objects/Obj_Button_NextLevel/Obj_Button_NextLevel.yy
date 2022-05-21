@@ -1,12 +1,12 @@
 {
   "spriteId": {
-    "name": "Spr_Settings",
-    "path": "sprites/Spr_Settings/Spr_Settings.yy",
+    "name": "spr_next",
+    "path": "sprites/spr_next/spr_next.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "LabeledButtons",
+    "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_SettingsController",
+  "name": "Obj_Button_NextLevel",
   "tags": [],
   "resourceType": "GMObject",
 }
