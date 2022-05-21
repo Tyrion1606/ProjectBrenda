@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_AttackSpeed",
-    "path": "sprites/Spr_AttackSpeed/Spr_AttackSpeed.yy",
+    "name": "Spr_StoredTurret_01",
+    "path": "sprites/Spr_StoredTurret_01/Spr_StoredTurret_01.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,18 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upgrades",
-    "path": "folders/Objects/Upgrades.yy",
+    "name": "Turrets",
+    "path": "folders/Objects/Upgrades/Turrets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Plus_T1AtkSpeed",
+  "name": "Obj_Turret_01_Upgrade",
   "tags": [],
   "resourceType": "GMObject",
 }
