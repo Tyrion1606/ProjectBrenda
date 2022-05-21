@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Deprecated",
+    "path": "folders/Objects/Controllers/Deprecated.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_EnemyInstanciator",
