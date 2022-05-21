@@ -1,1 +1,2 @@
-Scr_GridDisplay(32);	//Calls the Script that creates a grid on the Room
+timeline_speed = 1/room_speed;	// Sets the 'Moment' value of an timeline to be in seconds instead of steps
+WaveClean = true;
