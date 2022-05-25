@@ -1,1 +1,1 @@
-room_goto(global.LevelArray[global.Level])
+room_goto(global.RoomsArray[global.Level])

@@ -1,1 +1,1 @@
-global.Dinheiros = 10;	// initializing the "Dinheiros" Variable
+global.Dinheiros = 20;	// initializing the "Dinheiros" Variable

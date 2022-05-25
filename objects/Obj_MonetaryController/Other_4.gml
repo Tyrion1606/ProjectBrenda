@@ -1,6 +1,6 @@
 switch(global.Level){
 	case 0:
-		global.Dinheiros = 10;
+		global.Dinheiros = 20;
 	break;
 	case 1:
 		global.Dinheiros = 20;

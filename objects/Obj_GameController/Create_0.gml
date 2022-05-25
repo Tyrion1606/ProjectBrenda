@@ -38,13 +38,18 @@
 #endregion
 
 #region The Array to stores all the level rooms and it respective paths
-global.LevelArray =[Room1,
+global.RoomsArray =[Room1,
 					Room2,
 					Room3,
 					Room4]
 					
-global.PathArray = [Path1,
+global.PathsArray = [Path1,
 					Path2,
 					Path3,
 					Path4]
+					
+/*global.LevelArray=[global.WavesArray,
+						Path2,
+						Path3,
+						Path4]*/
 #endregion
