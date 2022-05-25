@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "Spr_AttackSpeed",
-    "path": "sprites/Spr_AttackSpeed/Spr_AttackSpeed.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Buttons",
-    "path": "objects/Obj_Buttons/Obj_Buttons.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,7 +18,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
@@ -35,7 +28,7 @@
     "path": "folders/Objects/Upgrades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Plus_T1AtkSpeed",
+  "name": "Obj_UpgradeBox",
   "tags": [],
   "resourceType": "GMObject",
 }

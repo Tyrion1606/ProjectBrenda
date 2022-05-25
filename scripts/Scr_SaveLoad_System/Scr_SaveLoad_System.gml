@@ -25,9 +25,13 @@ function Scr_Save(){
 	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[2][3]);	// T3: Density
 
 	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][0]);	// T4: Damage
-	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][1]);	// T4: Atk Speed
-	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][2]);	// T4: range
-	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][3]);	// T4: BulletSpeed
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][1]);	// T4: Whip Duration
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[3][2]);	// T4: Cooldown Reduction
+	
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[4][0]);	// T5: Damage
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[4][1]);	// T5: Atk Speed
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[4][2]);	// T5: range
+	buffer_write(SaveBuffer, buffer_u8,global.Upgrade[4][3]);	// T5: BulletSpeed
 	#endregion
 	
 	buffer_save(SaveBuffer,"SaveArchive");	// Salva em um arquivo
