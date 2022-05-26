@@ -6,7 +6,9 @@ if(global.GridShow and room != LoseScreen and room != MainMenu and room != Pause
 
 #region Level Cleaned
 if(global.LevelCleaned){
+	global.LevelCleaned = false;
 	show_debug_message("passou da fase");
 	global.Level++;
+	Scr_Save();
 }
 #endregion

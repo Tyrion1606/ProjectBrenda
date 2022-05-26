@@ -15,7 +15,7 @@ if(Triggered){
 		if(Current_Wave == Total_Waves){
 			// all waves cleaned
 			show_debug_message("Level cleaned")
-			global.Level++;
+			global.LevelCleaned = true;
 			room_goto(UpgradeScreen);
 
 		} else{

@@ -7,8 +7,8 @@ event_inherited();
 Firing = false;
 ShotsNumber = 8; // Number of bullets per shoot
 TurretCollor = c_red;
-Cooldown = 20; // Cooldown to fire the bomb
+Cooldown = 120; // Cooldown to fire the bomb
 BulletSpeed = 2;	// Speed that the bullet goes out from the turret
-AtackRange = 200;	// Radius at which the turret can shoot
+AtackRange = 100;	// Radius at which the turret can shoot
 
 alarm[0] = Cooldown; // Start the cooldown to fire

@@ -3,7 +3,7 @@ var _num = collision_circle_list(id.x, id.y, 100, Obj_Enemy, false, false, _Enem
 
 if (_num > 0){
 	for (var i = 0; i < _num; ++i;){
-		_EnemiesList[| i].HP -= 5;
+		_EnemiesList[| i].HP -= 1;
 	}
 }
 ds_list_destroy(_EnemiesList);

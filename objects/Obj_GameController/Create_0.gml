@@ -23,13 +23,20 @@
 	global.Upgrade[2][3] = 0;	// T3: Density
 
 	global.Upgrade[3][0] = 0;	// T4: Damage
-	global.Upgrade[3][1] = 0;	// T4: range
+	global.Upgrade[3][1] = 0;	// T4: Whip Duration
+	global.Upgrade[3][2] = 0;	// T4: Cooldown Reduction
+	
+	global.Upgrade[4][0] = 0;	// T5: Damage
+	global.Upgrade[4][1] = 0;	// T5: Atk Speed
+	global.Upgrade[4][2] = 0;	// T5: range
+	global.Upgrade[4][3] = 0;	// T5: BulletSpeed
 
 	#endregion
 #endregion
 
 #region Initialising the Settings GLOBAL Variables
 	global.GridShow = false;
+	global.FullScreen = false;
 	
 #endregion
 

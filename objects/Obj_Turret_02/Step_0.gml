@@ -29,6 +29,9 @@ if (Firing && collision_circle(x, y, AtackRange, Obj_Enemy, false, true)){
 	// Reset the cooldown to fire
 	Firing = false;
 	alarm[0] = Cooldown;
+	
+	// Som:
+	audio_play_sound(Snd_Tum_Vocal,1,false);
 }
 
 #endregion
