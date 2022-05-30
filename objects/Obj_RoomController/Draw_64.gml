@@ -1,15 +1,15 @@
 /// @description Waves Debug text
 
-if(Triggered){
+if(Triggered or DebugingGUIlock){
+	DebugingGUIlock = true;
 	draw_set_font(Fnt_General);
 	var str = "Remaining: "
 	for(var i = 0 ; i < array_length(Remaining) ; i++){
 		str+= string(Remaining[i]) + "|";
 	}
 	draw_text(25,25,str
-					+"\nWaves Total: " + string(Total_Waves)
-					+"\nWave Now: " + string(Current_Wave)
-					)
+					+"\nWave: " + string(Current_Wave) +"/" + string(Total_Waves)
+					+"\nLevel: " + string(global.Level))
 }
 
 draw_set_font(Fnt_Money);	// sets the font to 'Fnt_Money' that has only NUMBERS, UPCASED-LETHERS, and ':'

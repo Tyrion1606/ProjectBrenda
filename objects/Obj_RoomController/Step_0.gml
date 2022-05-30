@@ -14,12 +14,17 @@ if(Triggered){
 	if(Remaining[Current_Wave] <= 0){
 		if(Current_Wave == Total_Waves){
 			// all waves cleaned
-			show_debug_message("Level cleaned")
+			show_debug_message("[R.C.] Level cleaned")
 			global.LevelCleaned = true;
-			room_goto(UpgradeScreen);
-
 		} else{
+			// Wave Cleaned
 			Current_Wave++;
+			Triggered = false;
+			if(!timeline_running){
+				timeline_index = Tln_WaveStartTrigger_3sec;
+				timeline_position = 0;
+				timeline_running = true;
+			}
 			Timer = 0;
 		}
 	}

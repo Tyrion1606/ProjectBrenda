@@ -7,7 +7,7 @@
     "path": "folders/Timelines.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Tln_WaveStartTrigger",
+  "name": "Tln_FirstWaveStartTrigger_3sec",
   "tags": [],
   "resourceType": "GMTimeline",
 }

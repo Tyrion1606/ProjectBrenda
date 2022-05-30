@@ -41,22 +41,22 @@
 #endregion
 
 #region  Initialising the GameControll GLOBAL Variables
+	global.TempRoomStack = ds_stack_create();	// Stores the last rooms when its needed. (for setings screen for example)
+	global.LostTrigger = false;
 	global.LevelCleaned = false;
 #endregion
 
 #region The Array to stores all the level rooms and it respective paths
-global.RoomsArray =[Room1,
-					Room2,
-					Room3,
-					Room4]
+global.RoomsArray =[Room1,	// Its used in the object "NextLevel" [Button]
+					Room2,	// to  Know what room it needs to go
+					Room3,	// depending on the level
+						 ]	// 
 					
-global.PathsArray = [Path1,
-					Path2,
-					Path3,
-					Path4]
+global.PathsArray =[Path1,	// Its ued when a Enemy is intanciated
+					Path2,	// to Know its path when created
+					Path3,	// 
+						 ]	// 
 					
-/*global.LevelArray=[global.WavesArray,
-						Path2,
-						Path3,
-						Path4]*/
 #endregion
+
+//show_debug_overlay(true);

@@ -15,4 +15,4 @@ with(Obj_RoomController){
 	}
 }
 
-
+timeline_running = false;

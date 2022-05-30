@@ -1,5 +1,5 @@
-/// @description Force Trigger
-show_debug_message("Forcing trigger")
+/// @description [DEBUG-OFF]Force Trigger
+/*show_debug_message("Forcing trigger")
 if(!Triggered){
 	Triggered = true;
 	
@@ -13,4 +13,4 @@ if(!Triggered){
 		}
 		Remaining[Total_Waves]++;
 	}
-}
+}*/

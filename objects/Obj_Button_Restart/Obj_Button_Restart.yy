@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_back",
-    "path": "sprites/spr_back/spr_back.yy",
+    "name": "spr_restart",
+    "path": "sprites/spr_restart/spr_restart.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Buttons",
-    "path": "objects/Obj_Buttons/Obj_Buttons.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +30,7 @@
     "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Button_BackToPause",
+  "name": "Obj_Button_Restart",
   "tags": [],
   "resourceType": "GMObject",
 }

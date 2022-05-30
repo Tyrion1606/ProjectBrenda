@@ -3,11 +3,11 @@
 //room_persistent = true;
 //room_goto(LoseScreen);
 
-Obj_MainTower.HP--;
+
 with(Obj_MainTower){
-	if(HP <= 0 and !LoseTrigger){
-		LoseTrigger = true;
-		show_debug_message("PERDEU!!");
+	HP--;
+	if(HP <= 0 and !global.LostTrigger){
+		global.LostTrigger = true;
 	}
 }
 instance_destroy(id);
