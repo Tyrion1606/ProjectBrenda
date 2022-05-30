@@ -9,7 +9,7 @@ function Scr_WaveData(Level){
 			#region Waves Data Insert
 			waveindex = 0;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
-			/*ds_list_add(Waves, [waveindex, Obj_Enemy, 120]);
+			ds_list_add(Waves, [waveindex, Obj_Enemy, 120]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 180]);
 			waveindex = 1;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
@@ -83,7 +83,7 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 350]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 400]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 420]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 440]);*/
+			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 440]);
 			#endregion
 
 		break;
