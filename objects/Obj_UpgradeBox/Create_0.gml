@@ -6,13 +6,22 @@
 // O icone começa apagado e quando comprado muda para a cor da torreta
 // O sprite da cor será feito posteriormente (Só mudar o fundo da sprite kk)
 
-IndexSelector = 0; // Variable to control the box format
+//IndexSelector = 0; // Variable to control the box format
+box_margin = 16; // Margin of the upgrade box
+box_padding = 16; // Padding of the upgrade box
 
-// If the box is outside the room on the right, create it to the left side
-if((y + sprite_get_height(Spr_UpgradeBox)) > room_height)
-	IndexSelector += 2;
+//######################## TEMPORARY ########################
+
+
+
+
+//###########################################################
+
+//// If the box is outside the room on the right, create it to the left side
+//if((y + sprite_get_height(Spr_UpgradeBox)) > room_height)
+//	IndexSelector += 2;
 	
-// If the box is outside the room on the botton, create it to the top side
-if((x + sprite_get_width(Spr_UpgradeBox)) > room_width)
-	IndexSelector += 1;
+//// If the box is outside the room on the botton, create it to the top side
+//if((x + sprite_get_width(Spr_UpgradeBox)) > room_width)
+//	IndexSelector += 1;
 

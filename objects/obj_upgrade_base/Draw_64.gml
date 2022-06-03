@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(position_meeting(mouse_x, mouse_y, self) && TextBox == noone){
-	draw_set_font(Fnt_Money);	// TEMPORARY usin the Monetary font
+if(position_meeting(mouse_x, mouse_y, self)){
+	draw_set_font(Fnt_Upgrade);
 
 	//shows the upgrade name in front of the buton
 	draw_set_halign(fa_center);
