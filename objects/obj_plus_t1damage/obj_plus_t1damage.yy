@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_StoredTurret_01_1",
-    "path": "sprites/Spr_StoredTurret_01_1/Spr_StoredTurret_01_1.yy",
+    "name": "Spr_Damage",
+    "path": "sprites/Spr_Damage/Spr_Damage.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Buttons_4",
-    "path": "objects/Obj_Buttons_4/Obj_Buttons_4.yy",
+    "name": "Obj_Buttons_2",
+    "path": "objects/Obj_Buttons_2/Obj_Buttons_2.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,11 +31,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Turrets",
-    "path": "folders/Objects/Upgrades/Turrets.yy",
+    "name": "Upgrades",
+    "path": "folders/Objects/Upgrades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Turret_01_Upgrade",
+  "name": "Obj_Plus_T1Damage",
   "tags": [],
   "resourceType": "GMObject",
 }
