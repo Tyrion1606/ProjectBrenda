@@ -33,3 +33,5 @@ if(global.LostTrigger){
 #endregion
 
 //show_debug_message("Room Persistence: " + string(room_persistent));
+
+
