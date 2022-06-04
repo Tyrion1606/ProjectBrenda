@@ -2,7 +2,7 @@
 	var LevelsQuantity = 3; // Verbose porpose only
 	global.EXP = 0;			// This EXP will be used for further upgrades 
 	global.Level = 0;		// This is the level that tha player achieves in the game
-	//global.LevelCleanedArray = array_create(LevelsQuantity, false);
+	global.LevelCleanedArray = array_create(LevelsQuantity, false);
 	
 	global.LevelDataArray = [[false],[Room1],[Path1],[15]
 							,[false],[Room2],[Path2],[20]];
