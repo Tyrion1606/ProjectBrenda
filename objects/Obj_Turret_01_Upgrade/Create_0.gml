@@ -1,3 +1,3 @@
 /// @description Prevents frame change
 
-image_speed = 0;
+Name = "Turret 01";

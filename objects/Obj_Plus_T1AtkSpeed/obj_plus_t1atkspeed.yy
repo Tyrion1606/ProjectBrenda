@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Upgrade_base",
-    "path": "objects/Obj_Upgrade_base/Obj_Upgrade_base.yy",
+    "name": "Obj_Base_Upgrade",
+    "path": "objects/Obj_Base_Upgrade/Obj_Base_Upgrade.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upgrades",
-    "path": "folders/Objects/Upgrades.yy",
+    "name": "Turret01_Upgrades",
+    "path": "folders/Objects/Upgrades/Turret01_Upgrades.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Plus_T1AtkSpeed",

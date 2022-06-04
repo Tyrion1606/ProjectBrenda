@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Buttons_2",
-    "path": "objects/Obj_Buttons_2/Obj_Buttons_2.yy",
+    "name": "Obj_Base_Upgrade",
+    "path": "objects/Obj_Base_Upgrade/Obj_Base_Upgrade.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,14 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upgrades",
-    "path": "folders/Objects/Upgrades.yy",
+    "name": "Turret01_Upgrades",
+    "path": "folders/Objects/Upgrades/Turret01_Upgrades.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Plus_T1Damage",
