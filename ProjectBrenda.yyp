@@ -315,7 +315,7 @@
     {"CopyToMask":-1,"filePath":"datafiles/ComicSans","resourceVersion":"1.0","name":"ComicSans.png","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.5.0.8",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "ProjectBrenda",
