@@ -13,7 +13,7 @@ function setShootSetings(Bullet, num){
 	Bullet.speed = BulletSpeed;
 	
 	// Set the distance to bullet disappear
-	Bullet.Distance = FireDistance;
+	Bullet.Distance = AtackRange;
 }
 
 

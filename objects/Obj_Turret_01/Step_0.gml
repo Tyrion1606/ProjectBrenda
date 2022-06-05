@@ -7,6 +7,7 @@ if (Firing){
 		var Bullet = instance_create_layer(x,y,"Instances",Obj_Turret_01_Bullet);
 		Bullet.direction = id.image_angle;
 		Bullet.speed = BulletSpeed;
+		Bullet.Damage = TurretDamage;
 		i=0;
 		
 		// som:

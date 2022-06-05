@@ -18,8 +18,11 @@ for(var i = 0; i < 4; i++){
 											Obj_Freeze, false, true) == noone){
 												
 		// Instanciate the frzing shot
-		instance_create_layer(PlacePositions[NextPosition][0], 
+		var FreezeBullet = instance_create_layer(PlacePositions[NextPosition][0], 
 								PlacePositions[NextPosition][1], "Shoots", Obj_Freeze);
+		FreezeBullet.Damage = TurretDamage;
+		FreezeBullet.BulletSpeed = BulletSpeed;
+		
 		Firing = true;	// Normalizes the cooldown
 		break;
 	}
