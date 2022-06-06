@@ -9,7 +9,7 @@ if(Triggered or DebugingGUIlock){
 	}
 	draw_text(25,25,str
 					+"\nWave: " + string(Current_Wave) +"/" + string(Total_Waves)
-					+"\nLevel: " + string(global.Level))
+					+"\nLevel: " + string(global.CurrentLevel))
 }
 
 draw_set_font(Fnt_Money);	// sets the font to 'Fnt_Money' that has only NUMBERS, UPCASED-LETHERS, and ':'

@@ -1,14 +1,10 @@
-#region Settings
-if(global.GridShow and room != LoseScreen and room != MainMenu and room != PauseRoom and room != SettingsRoom and room != UpgradeScreen){
-	Scr_GridDisplay(32);	//Calls the Script that creates a grid on the Room
-}
-#endregion
 
 #region Level Cleaned
 if(global.LevelCleaned){
 	global.LevelCleaned = false;
-	show_debug_message("[G.C.] passou da fase");
-	global.Level++;
+	show_debug_message("[G.C.] passou de fase");
+	global.CleanedLevelsArray[global.CurrentLevel] = true;
+	global.CurrentLevel++;
 	
 	
 	// Game End Check
