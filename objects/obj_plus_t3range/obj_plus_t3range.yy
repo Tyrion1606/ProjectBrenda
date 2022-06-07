@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Turret_04",
-    "path": "sprites/Spr_Turret_04/Spr_Turret_04.yy",
+    "name": "Spr_Range",
+    "path": "sprites/Spr_Range/Spr_Range.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Turret_Shadow",
-    "path": "objects/Obj_Turret_Shadow/Obj_Turret_Shadow.yy",
+    "name": "Obj_Base_Upgrade",
+    "path": "objects/Obj_Base_Upgrade/Obj_Base_Upgrade.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,17 +26,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Turret_04",
-    "path": "folders/Objects/Turrets/Turret_04.yy",
+    "name": "Turret03_Upgrades",
+    "path": "folders/Objects/Upgrades/Turret03_Upgrades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Turret_04_Shadow",
+  "name": "Obj_Plus_T3Range",
   "tags": [],
   "resourceType": "GMObject",
 }
