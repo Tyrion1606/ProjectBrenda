@@ -8,6 +8,7 @@ if (Firing){
 	MyWhip = instance_create_layer(x + lengthdir_y(sprite_height/2, image_angle),
 								   y - lengthdir_x(sprite_height/2, image_angle), "Shoots", Obj_Whip);
 	MyWhip.image_angle = id.image_angle;
+	MyWhip.Damage = TurretDamage;
 	alarm[0] = AtackDuration;
 }
 // destroy the whip

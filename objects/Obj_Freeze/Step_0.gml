@@ -13,7 +13,7 @@ if(Target == noone){
 else{
 	if(instance_exists(Target)){
 		direction = point_direction(x, y, Target.x, Target.y);
-		speed = 1;
+		speed = BulletSpeed;
 	}
 	else{
 		Target = noone;

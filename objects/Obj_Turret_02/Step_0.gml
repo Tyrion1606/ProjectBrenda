@@ -18,6 +18,8 @@ if (Firing && collision_circle(x, y, AtackRange, Obj_Enemy, false, true)){
 	var Bomb = instance_create_layer(x, y, "Instances", Obj_Turret_02_Bomb);
 	Bomb.direction = id.image_angle;
 	Bomb.speed = BulletSpeed;
+	Bomb.Damage = BombDamage;
+	Bomb.DamageRange = ExplosionRange;
 	
 	// Set the position of the target
 	Bomb.Target = [Nearest.x, Nearest.y];
