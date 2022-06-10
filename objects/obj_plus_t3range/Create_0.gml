@@ -6,6 +6,7 @@ event_inherited();
 
 Name = "RANGE"; // Name of the upgrade
 
-TurretUpgrade = 3; // Turret: 01
-TypeUpegrade = 2; // Type: Range
+TurretUpgrade = "Turret_03"; // Turret: 01
+TypeUpegrade = "Range"; // Type: Range
+IndexUpgradeImage = 3;
 MaxUpgrade = 3;

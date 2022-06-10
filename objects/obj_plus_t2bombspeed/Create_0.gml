@@ -6,6 +6,7 @@ event_inherited();
 
 Name = "BOMB SPEED"; // Name of the upgrade
 
-TurretUpgrade = 1; // Turret: 02
-TypeUpegrade = 3; // Type: Bomb Speed
+TurretUpgrade = "Turret_02"; // Turret: 02
+TypeUpegrade = "BombSpeed"; // Type: Bomb Speed
+IndexUpgradeImage = 2;
 MaxUpgrade = 3;

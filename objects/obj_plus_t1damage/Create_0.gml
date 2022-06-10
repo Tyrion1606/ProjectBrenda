@@ -7,6 +7,7 @@ event_inherited();
 Name = "DAMAGE"; // Name of the upgrade
 Description = "Increases turret's damage by 1"; // Description of the upgrade
 
-TurretUpgrade = 0; // Turret: 01
-TypeUpegrade = 0; // Type: Damage
+TurretUpgrade = "Turret_01"; // Turret: 01
+TypeUpegrade = "Damage"; // Type: Damage
+IndexUpgradeImage = 1;
 MaxUpgrade = 10;

@@ -17,7 +17,7 @@ function Draw_Text_With_Border(XX, YY, Text, Color = c_white, BorderColor = c_bl
 #endregion
 
 // Show the actual number for the upgrade
-var UpgradeValue = global.Upgrade[TurretUpgrade][TypeUpegrade];
+var UpgradeValue = variable_struct_get(variable_struct_get(global.Upgrades, TurretUpgrade), TypeUpegrade);
 
 draw_set_font(Fnt_Upgrade);
 draw_set_halign(fa_right);

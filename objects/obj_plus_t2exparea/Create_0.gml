@@ -6,6 +6,7 @@ event_inherited();
 
 Name = "EXPLOSION AREA"; // Name of the upgrade
 
-TurretUpgrade = 1; // Turret: 02
-TypeUpegrade = 4; // Type: Bomb Speed
+TurretUpgrade = "Turret_02"; // Turret: 02
+TypeUpegrade = "BombArea"; // Type: Bomb Area
+IndexUpgradeImage = 2;
 MaxUpgrade = 3;

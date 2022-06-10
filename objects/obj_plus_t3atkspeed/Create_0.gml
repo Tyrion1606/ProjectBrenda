@@ -7,6 +7,7 @@ event_inherited();
 Name = "ATACK SPEED"; // Name of the upgrade
 Description = "Increases atack speed by 15\%"; // Description of the upgrade
 
-TurretUpgrade = 2; // Turret: 03
-TypeUpegrade = 1; // Type: Atk Speed
+TurretUpgrade = "Turret_03"; // Turret: 03
+TypeUpegrade = "Speed"; // Type: Atk Speed
+IndexUpgradeImage = 3;
 MaxUpgrade = 5;

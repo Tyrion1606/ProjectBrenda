@@ -1,8 +1,10 @@
 /// @description Open the UpgradeBox
 
-if (position_meeting(mouse_x, mouse_y, self) && global.Upgrade[TurretUpgrade][TypeUpegrade] < MaxUpgrade){
-			
-	global.Upgrade[TurretUpgrade][TypeUpegrade] ++;
+var Upgrade = variable_struct_get(variable_struct_get(global.Upgrades, TurretUpgrade), TypeUpegrade);
+
+if (position_meeting(mouse_x, mouse_y, self) && Upgrade < MaxUpgrade){
+	
+	variable_struct_set(variable_struct_get(global.Upgrades, TurretUpgrade), TypeUpegrade, ++Upgrade);
 	
 	#region // Codigo usado para janela flutuante
 	//// Check of already has a upgrade box open
