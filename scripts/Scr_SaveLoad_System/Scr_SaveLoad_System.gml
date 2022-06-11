@@ -8,8 +8,8 @@ function Scr_Save(){
 	#endregion
 	
 	#region Progression
-		show_debug_message("[Scr.Save] DADOS DE PROGRESSO SALVOS: " + string(global.CleanedLevelsArray));
-		var JsonString = json_stringify(global.CleanedLevelsArray);
+		show_debug_message("[Scr.Save] DADOS DE PROGRESSO SALVOS: " + string(global.EnabledLevelsArray));
+		var JsonString = json_stringify(global.EnabledLevelsArray);
 		var file = file_text_open_write("Progression.txt");
 		file_text_write_string(file, JsonString);
 		file_text_close(file);
@@ -28,8 +28,8 @@ function Scr_Load(){
 		var file = file_text_open_read("Progression.txt");
 		var JsonString = file_text_read_string(file);
 		file_text_close(file);
-		global.CleanedLevelsArray = json_parse(JsonString);
-		show_debug_message("[Scr.Load] DADOS DE PROGRESSO CARREGADOS:\n" + string(global.CleanedLevelsArray));
+		global.EnabledLevelsArray = json_parse(JsonString);
+		show_debug_message("[Scr.Load] DADOS DE PROGRESSO CARREGADOS:\n" + string(global.EnabledLevelsArray));
 		
 	} else {	// Se o arquivo de save NÃO existe
 		show_message("Arquivo de save não existe");

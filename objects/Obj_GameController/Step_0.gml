@@ -3,12 +3,12 @@
 if(global.LevelCleaned){
 	global.LevelCleaned = false;
 	show_debug_message("[G.C.] passou de fase");
-	global.CleanedLevelsArray[global.CurrentLevel] = true;
+	global.EnabledLevelsArray[global.CurrentLevel+1] = true;
 	global.CurrentLevel++;
 	
 	
 	// Game End Check
-	if(global.Level >= array_length(global.RoomsArray)){
+	if(global.Level >= array_length(global.LevelDataArray)){
 		show_debug_message("[G.C.] Zerou o jogo!!");
 		room_goto(EndGame);
 		show_message("[G.C.] Você é Brabo!!\n\n Não fizemos mais fases, este é só um protótipo \n se quer mais, faz o pix :)");

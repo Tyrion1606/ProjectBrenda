@@ -1,12 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_back",
-    "path": "sprites/spr_back/spr_back.yy",
+    "name": "spr_select",
+    "path": "sprites/spr_select/spr_select.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_select",
+    "path": "sprites/spr_select/spr_select.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "Obj_Buttons",
@@ -34,7 +37,7 @@
     "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Button_Back",
+  "name": "Obj_Button_SelectLevel",
   "tags": [],
   "resourceType": "GMObject",
 }

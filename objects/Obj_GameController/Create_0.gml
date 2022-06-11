@@ -1,13 +1,14 @@
 	
 	global.LevelDataArray = [[Room1,Path1,15]
 							,[Room2,Path2,20]
-							,[Room2,Path2,20]];
+							,[Room3,Path3,25]];
 
 #region Initialising the Progression GLOBAL variables:
-	global.CleanedLevelsArray = array_create(array_length(global.LevelDataArray), false);
+	global.EnabledLevelsArray = array_create(array_length(global.LevelDataArray), true);
+	global.EnabledLevelsArray[0] = true;
 	
 	global.EXP = 0;			// This EXP will be used for further upgrades 
-	global.CurrentLevel = 0;		// This is the level that tha player achieves in the game
+	global.CurrentLevel = Scr_TakeNextLevel(global.EnabledLevelsArray);		// This is the level that tha player achieves in the game
 	
 	global.Upgrades = {
 		Turret_01 : {
