@@ -8,7 +8,7 @@
 	global.EnabledLevelsArray[0] = true;
 	
 	global.EXP = 0;			// This EXP will be used for further upgrades 
-	global.CurrentLevel = Scr_TakeNextLevel(global.EnabledLevelsArray);		// This is the level that tha player achieves in the game
+	global.CurrentLevel = 0;		// This is the level that the player achieves in the game
 	
 	global.Upgrades = {
 		Turret_01 : {
@@ -59,7 +59,6 @@
 		}
 		
 	};
-
 #endregion
 
 #region Initialising the Settings GLOBAL Variables

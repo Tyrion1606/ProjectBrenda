@@ -1,5 +1,4 @@
 /// @description Insert description here
-//Index = 0;
 
 if (global.EnabledLevelsArray[Index]){
 	image_blend = c_white;
