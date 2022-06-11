@@ -2,7 +2,7 @@
 // Creates the bulets with certain fire-rate and seting its speed
 if (Firing){
 	i++;
-	if(i > 60){
+	if(i > Cooldown){
 
 		var Bullet = instance_create_layer(x,y,"Instances",Obj_Turret_01_Bullet);
 		Bullet.direction = id.image_angle;

@@ -1,5 +1,5 @@
 	
-	global.LevelDataArray = [[Room1,Path1,15]
+	global.LevelDataArray = [[Room1,Path1,50]
 							,[Room2,Path2,20]
 							,[Room3,Path3,25]];
 
@@ -7,7 +7,7 @@
 	global.EnabledLevelsArray = array_create(array_length(global.LevelDataArray), true);
 	global.EnabledLevelsArray[0] = true;
 	
-	global.EXP = 0;			// This EXP will be used for further upgrades 
+	//global.EXP = 0;			// This EXP will be used for further upgrades 
 	global.CurrentLevel = 0;		// This is the level that the player achieves in the game
 	
 	global.Upgrades = {
@@ -40,6 +40,7 @@
 			Range : 0,
 			BulletSpeed : 0
 		},
+		Points : 0,
 		
 		toString : function(){
 			var tempStr = "\n======= [G.C.]Upgrades Current Data ======="
@@ -57,7 +58,6 @@
 			
 			return tempStr
 		}
-		
 	};
 #endregion
 
