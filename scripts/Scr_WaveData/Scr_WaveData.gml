@@ -106,17 +106,7 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 464]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 496]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 320]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 352]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 384]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 544]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 208]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 288]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_6, 768]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 640]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 400]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 480]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 592]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 688]);
 			#endregion
 
 		break;
