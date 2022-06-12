@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
+  "bbox_left": 0,
   "bbox_right": 18,
   "bbox_top": 2,
   "bbox_bottom": 12,
@@ -36,6 +36,9 @@
     {"compositeImage":{"FrameId":{"name":"dc8dc9c2-7042-440e-876d-89c3d7321a89","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"dc8dc9c2-7042-440e-876d-89c3d7321a89","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"LayerId":{"name":"d8a4cfff-90e1-40bb-9ea4-76a2468b4719","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_Speed_2x","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","name":"dc8dc9c2-7042-440e-876d-89c3d7321a89","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"857f370e-e695-444b-b2b5-f18bb2553d6d","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"857f370e-e695-444b-b2b5-f18bb2553d6d","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"LayerId":{"name":"d8a4cfff-90e1-40bb-9ea4-76a2468b4719","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Speed_2x","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","name":"857f370e-e695-444b-b2b5-f18bb2553d6d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Spr_Speed_2x","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},
@@ -45,7 +48,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -54,6 +57,7 @@
             {"id":"d9ccc3dc-3531-4458-bbf5-a8a7cc8607ac","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d532ceb-359a-4719-a4b4-a4adae643886","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2df2ba3c-369a-43ac-84b6-8051732dd166","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d4c0ff7c-9061-4b7b-8ed2-05e6c7033ecd","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"22c52b53-146e-4b5b-bf4b-dad5fa88818e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc8dc9c2-7042-440e-876d-89c3d7321a89","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b465c3b9-2e01-45f4-bae1-0cc57afcf5c1","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"857f370e-e695-444b-b2b5-f18bb2553d6d","path":"sprites/Spr_Speed_2x/Spr_Speed_2x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

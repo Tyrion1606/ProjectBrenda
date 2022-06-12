@@ -1,4 +1,3 @@
-
 #region Level Cleaned
 if(global.LevelCleaned){
 	global.LevelCleaned = false;

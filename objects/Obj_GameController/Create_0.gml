@@ -1,5 +1,4 @@
-	
-	global.LevelDataArray = [[Room1,Path1,50]
+	global.LevelDataArray = [[Room1,Path1,15]
 							,[Room2,Path2,20]
 							,[Room3,Path3,25]];
 
@@ -73,4 +72,4 @@
 	global.LevelCleaned = false;
 #endregion
 
-//show_debug_overlay(true);
+show_debug_overlay(true);
