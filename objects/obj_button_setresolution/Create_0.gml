@@ -1,0 +1,2 @@
+DrawFlag = false;
+StrCurrentResolution = "test";
