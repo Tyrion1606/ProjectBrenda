@@ -25,7 +25,8 @@ if (Firing && collision_circle(id.x, id.y, AtackRange, Obj_Enemy, false, true) !
 	show_debug_message("PHEW!");
 	// Generato the bullets
 	for(var i=0; i < ShotsNumber; i++){
-		var Bullet = instance_create_layer(x, y, "Instances", Obj_Turret_01_Bullet);
+		var Bullet = instance_create_layer(x, y, "Shoots", Obj_Turret_01_Bullet);
+		Bullet.Damage = TurretDamage;	// [DAVI] sets the damage of the bullet
 		setShootSetings(Bullet, i);
 	}
 	

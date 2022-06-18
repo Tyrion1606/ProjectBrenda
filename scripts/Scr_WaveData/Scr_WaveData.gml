@@ -21,7 +21,7 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 30]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 60]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 90]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 120]);
+			ds_list_add(Waves, [waveindex, Obj_Enemy, 130]);
 			waveindex = 3;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 30]);
@@ -41,8 +41,6 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 120]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 150]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 220]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 330]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 350]);
 			waveindex = 5;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 30]);
@@ -59,7 +57,6 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 150]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 160]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 185]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 195]);
 			waveindex = 7;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 20]);
@@ -71,7 +68,6 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 150]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 160]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 170]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 200]);
 			waveindex = 8;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 16]);
@@ -83,8 +79,6 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 176]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 240]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 272]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 432]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 496]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 320]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 352]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 384]);
@@ -102,11 +96,8 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy_2, 176]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 240]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy_3, 272]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 432]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 464]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 496]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 320]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy_5, 400]);
+			ds_list_add(Waves, [waveindex, Obj_Enemy_4, 400]);
 			#endregion
 
 		break;
@@ -119,12 +110,6 @@ function Scr_WaveData(Level){
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 60]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 90]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 120]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 10]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 20]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 40]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 50]);
-			ds_list_add(Waves, [waveindex, Obj_Enemy, 70]);
-
 			waveindex = 1;
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 0]);
 			ds_list_add(Waves, [waveindex, Obj_Enemy, 30]);

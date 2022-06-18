@@ -1,4 +1,4 @@
-	global.LevelDataArray = [[Room1,Path1,15]
+	global.LevelDataArray = [[Room1,Path1,30]
 							,[Room2,Path2,20]
 							,[Room3,Path3,25]];
 

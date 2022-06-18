@@ -23,7 +23,7 @@ else{
 
 #endregion
 	
-	if(collision_circle(id.x, id.y, AtackRange,Obj_Enemy,false,true) == noone){
+if(collision_circle(id.x, id.y, AtackRange,Obj_Enemy,false,true) == noone){
 	Firing = false;
 } else {
 	Scr_Path_SearchFurtherEnemy(AtackRange);

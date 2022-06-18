@@ -10,7 +10,7 @@ AtackRange = 0;	// Radius at which the turret can shoot
 
 BulletSpeed = 10;	// Speed that the bullet goes out from the turret
 // upgrades
-TurretDamage = 0.2 + 0.1 * global.Upgrades.Turret_04.Damage; // Turret's bullet Damage
+TurretDamage = 0.15 + 1 * global.Upgrades.Turret_04.Damage; // Turret's bullet Damage
 AtackDuration = 150 + 15 * global.Upgrades.Turret_04.Duration; // Duration of continuous atack
 Cooldown = 200 - 20 * global.Upgrades.Turret_04.Speed; // Cooldown to fire
 

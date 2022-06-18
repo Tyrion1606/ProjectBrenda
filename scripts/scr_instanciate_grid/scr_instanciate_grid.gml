@@ -2,6 +2,7 @@
 function Scr_instanciate_grid(Object, Quantity, Start_x = 0, Start_y = 0, Separation = 1, Layer = "Instances"){
 	var temp_x = Start_x;
 	var temp_y = Start_y;
+	show_debug_message(" problema, provavemente con versão... aqui!!!")
 	
 	var i = 0;
 	repeat(Quantity){
