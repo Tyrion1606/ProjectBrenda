@@ -28,8 +28,8 @@ if(Selected and AntibugDelay <= 0 and not PlaceTurret){
 else if(PlaceTurret){
 	// Creates a turrent on the shadow direction 
 	
-	var Turret = instance_create_layer(id.x, id.y, "Instances", TurretObject);
-	Turret.image_angle = id.image_angle;
+	instance_create_layer(id.x, id.y, "Instances", TurretObject, { image_angle : id.image_angle });
+	
 	id.image_angle = 0;
 	
 	PlaceTurret = false;

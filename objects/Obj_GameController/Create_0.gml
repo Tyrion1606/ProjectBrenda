@@ -39,7 +39,7 @@
 			Range : 0,
 			BulletSpeed : 0
 		},
-		Points : 0,
+		Points : 5,
 		
 		toString : function(){
 			var tempStr = "\n======= [G.C.]Upgrades Current Data ======="
