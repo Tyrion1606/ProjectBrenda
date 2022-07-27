@@ -73,3 +73,17 @@
 #endregion
 
 show_debug_overlay(true);
+
+
+#region Set initial Resolution and Screen Size
+	var wUserResolution = display_get_width();	//Get the Users Display Width resolution
+
+	var wWindowSize = wUserResolution*4/5;		//Take 4/5 of the screen size to the Window Size on opening
+	var hWindowSize = wWindowSize/16*9;			//Mantain a 16x9 Proportion based on Width Window Size
+	//show_debug_message("[G.C.] " + string(wWindowSize))
+	//show_debug_message("[G.C.] " + string(hWindowSize))
+	
+	window_set_size(wWindowSize,hWindowSize);	// Sets the size
+	window_center();	// Grants the Centered Window
+#endregion
+
