@@ -9,9 +9,8 @@ TurretCollor = c_green;
 AtackRange = 0;	// Radius at which the turret can shoot
 
 // upgrades
-TurretDamage = 0.15 + 1 * global.Upgrades.Turret_04.Damage; // Turret's bullet Damage
-//FireDistance = 1 + 1 * global.Upgrades.Turret_04.FireDistance; // Turrets's fire distance
-FireDistance = 3;
+TurretDamage = 0.15 + 0.2 * global.Upgrades.Turret_04.Damage; // Turret's bullet Damage
+FireDistance = 1 + 0.2 * global.Upgrades.Turret_04.FireDistance; // Turrets's fire distance
 #endregion
 
 #region // Fire settings

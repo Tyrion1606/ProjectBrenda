@@ -9,4 +9,4 @@ Name = "EXPLOSION AREA"; // Name of the upgrade
 TurretUpgrade = "Turret_02"; // Turret: 02
 TypeUpegrade = "BombArea"; // Type: Bomb Area
 IndexUpgradeImage = 2;
-MaxUpgrade = 3;
+MaxUpgrade = 15;

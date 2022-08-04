@@ -9,4 +9,4 @@ Name = "BOMB SPEED"; // Name of the upgrade
 TurretUpgrade = "Turret_02"; // Turret: 02
 TypeUpegrade = "BombSpeed"; // Type: Bomb Speed
 IndexUpgradeImage = 2;
-MaxUpgrade = 3;
+MaxUpgrade = 15;

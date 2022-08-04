@@ -4,10 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-Name = "DAMAGE"; // Name of the upgrade
-Description = "Increases turret's damage by 1"; // Description of the upgrade
+Name = "FREEZE"; // Name of the upgrade
+Description = "Increases the freeze power"; // Description of the upgrade
 
 TurretUpgrade = "Turret_05"; // Turret: 05
-TypeUpegrade = "Damage"; // Type: Damage
+TypeUpegrade = "Freeze"; // Type: Damage
 IndexUpgradeImage = 5;
-MaxUpgrade = 10;
+MaxUpgrade = 50;

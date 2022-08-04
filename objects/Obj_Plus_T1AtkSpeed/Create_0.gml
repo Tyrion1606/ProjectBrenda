@@ -10,4 +10,4 @@ Description = "Increases atack speed by 15\%"; // Description of the upgrade
 TurretUpgrade = "Turret_01"; // Turret: 01
 TypeUpegrade = "Speed"; // Type: Atk Speed
 IndexUpgradeImage = 1;
-MaxUpgrade = 5;
+MaxUpgrade = 25;

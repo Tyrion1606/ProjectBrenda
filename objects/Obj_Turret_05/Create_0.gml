@@ -14,10 +14,10 @@ NextPosition = 0;	// Control the side to place the next freezing shoot
 TurretCollor = c_blue;
 AtackDuration = 150;	// Duration of continuous atack
 
-TurretDamage = 1 + 0.1 * global.Upgrades.Turret_05.Damage; // Turret's bullet Damage
-Cooldown = 80 - 5 * global.Upgrades.Turret_05.Speed; // Cooldown to fire
-AtackRange = 250 + 25 * global.Upgrades.Turret_05.Range; // Radius at which the turret can shoot
-BulletSpeed = 1 + 0.5 * global.Upgrades.Turret_05.BulletSpeed; // Bullet Speed
+FreezingPower = 0.7 - 0.02 * global.Upgrades.Turret_05.Freeze; // Amount of slow caused by the bullet
+Cooldown = 160 - 2 * global.Upgrades.Turret_05.Speed; // Cooldown to fire
+AtackRange = 150 + 5 * global.Upgrades.Turret_05.Range; // Radius at which the turret can shoot
+BulletSpeed = 1 + 0.1 * global.Upgrades.Turret_05.BulletSpeed; // Bullet Speed
 
 
 alarm[0] = Cooldown; // Start the cooldown to fire

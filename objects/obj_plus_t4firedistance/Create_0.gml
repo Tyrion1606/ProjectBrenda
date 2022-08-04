@@ -10,4 +10,4 @@ Description = "Increases turret's fire distance"; // Description of the upgrade
 TurretUpgrade = "Turret_04"; // Turret: 04
 TypeUpegrade = "FireDistance"; // Type: Fire Distance
 IndexUpgradeImage = 4;
-MaxUpgrade = 10;
+MaxUpgrade = 50;

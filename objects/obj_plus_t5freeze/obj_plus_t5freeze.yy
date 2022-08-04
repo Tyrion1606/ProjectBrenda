@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Damage",
-    "path": "sprites/Spr_Damage/Spr_Damage.yy",
+    "name": "Spr_FreezePower",
+    "path": "sprites/Spr_FreezePower/Spr_FreezePower.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Upgrades/Turret05_Upgrades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Plus_T5Damage",
+  "name": "Obj_Plus_T5Freeze",
   "tags": [],
   "resourceType": "GMObject",
 }

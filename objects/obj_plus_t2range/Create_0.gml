@@ -9,4 +9,4 @@ Name = "RANGE"; // Name of the upgrade
 TurretUpgrade = "Turret_02"; // Turret: 02
 TypeUpegrade = "Range"; // Type: Range
 IndexUpgradeImage = 2;
-MaxUpgrade = 3;
+MaxUpgrade = 15;

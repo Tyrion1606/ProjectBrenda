@@ -20,8 +20,10 @@ for(var i = 0; i < 4; i++){
 		// Instanciate the frzing shot
 		var FreezeBullet = instance_create_layer(PlacePositions[NextPosition][0], 
 								PlacePositions[NextPosition][1], "Shoots", Obj_Freeze);
-		FreezeBullet.Damage = TurretDamage;
+		//FreezeBullet.Damage = TurretDamage;
+		FreezeBullet.FreezingPower = FreezingPower;
 		FreezeBullet.BulletSpeed = BulletSpeed;
+		FreezeBullet.AtackRange = AtackRange;
 		
 		Firing = true;	// Normalizes the cooldown
 		break;

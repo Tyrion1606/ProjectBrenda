@@ -10,4 +10,4 @@ Description = "Increases turret's damage by 1"; // Description of the upgrade
 TurretUpgrade = "Turret_04"; // Turret: 04
 TypeUpegrade = "Damage"; // Type: Damage
 IndexUpgradeImage = 4;
-MaxUpgrade = 10;
+MaxUpgrade = 50;

@@ -9,4 +9,4 @@ Name = "DENSITY"; // Name of the upgrade
 TurretUpgrade = "Turret_03"; // Turret: 03
 TypeUpegrade = "Density"; // Type: Density
 IndexUpgradeImage = 3;
-MaxUpgrade = 3;
+MaxUpgrade = 15;

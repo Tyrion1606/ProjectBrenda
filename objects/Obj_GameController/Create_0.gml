@@ -34,7 +34,7 @@
 			Duration : 0	// acredito ser desnecessário também
 		},
 		Turret_05 : {
-			Damage : 0,
+			Freeze : 0,
 			Speed : 0,
 			Range : 0,
 			BulletSpeed : 0
