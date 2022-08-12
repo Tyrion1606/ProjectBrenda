@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_YellowBall",
-    "path": "sprites/Spr_YellowBall/Spr_YellowBall.yy",
+    "name": "Spr_Bugbee",
+    "path": "sprites/Spr_Bugbee/Spr_Bugbee.yy",
   },
   "solid": false,
   "visible": true,
