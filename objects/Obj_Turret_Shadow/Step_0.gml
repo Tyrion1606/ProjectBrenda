@@ -11,8 +11,9 @@ if(id.Selected){
 	
 }
 
-move_snap(sprite_width, sprite_height);	// It Snaps the object on a grid with (arg1 x arg2) size
+move_snap(sprite_width/2, sprite_height/2);	// It Snaps the object on a grid with (arg1 x arg2) size
 
 // Clamps the position of the shadow by the pré-calculed margins
 id.x = clamp(id.x, X_MarginMin, X_MarginMax);
 id.y = clamp(id.y, Y_MarginMin, Y_MarginMax);
+

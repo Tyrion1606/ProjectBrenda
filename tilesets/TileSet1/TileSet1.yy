@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Spr_path",
-    "path": "sprites/Spr_path/Spr_path.yy",
+    "name": "Spr_path152",
+    "path": "sprites/Spr_path152/Spr_path152.yy",
   },
-  "tileWidth": 32,
-  "tileHeight": 32,
+  "tileWidth": 48,
+  "tileHeight": 48,
   "tilexoff": 0,
   "tileyoff": 0,
   "tilehsep": 0,
@@ -34,8 +34,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "ProjectBrenda",
+    "path": "ProjectBrenda.yyp",
   },
   "resourceVersion": "1.0",
   "name": "TileSet1",
