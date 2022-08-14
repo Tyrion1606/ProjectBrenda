@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_GenericEnemy",
-    "path": "sprites/Spr_GenericEnemy/Spr_GenericEnemy.yy",
+    "name": "Spr_Bugdragonfly",
+    "path": "sprites/Spr_Bugdragonfly/Spr_Bugdragonfly.yy",
   },
   "solid": false,
   "visible": true,

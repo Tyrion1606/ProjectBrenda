@@ -13,7 +13,7 @@ id.image_alpha = 0.5;	// seting the 'alpha < 1' will mage it gosthly by give it 
 
 
 // Pre-calculate the margins where you can move the shadow to put a turret:
-X_MarginMin = sprite_width;
-X_MarginMax = room_width*0.8;
+X_MarginMin = 128+(sprite_width/2);
+X_MarginMax = 128+1024-(sprite_width/2);
 Y_MarginMin = sprite_height;
-Y_MarginMax = room_height;
+Y_MarginMax = room_height-(sprite_height/2);

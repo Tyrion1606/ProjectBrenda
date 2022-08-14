@@ -4,4 +4,4 @@ AtackRange = 150;
 Cooldown = 1; // Cooldown to fire
 TurretCollor = c_white; // Color for turret attack area
 
-move_snap(32, 32); // Redundantly snaps the turret location, reinforcing the Shadow location... (trying to avoid bugs)
+move_snap(sprite_width/2, sprite_height/2); // Redundantly snaps the turret location, reinforcing the Shadow location... (trying to avoid bugs)
