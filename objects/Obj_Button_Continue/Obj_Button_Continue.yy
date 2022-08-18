@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_continue",
-    "path": "sprites/spr_continue/spr_continue.yy",
+    "name": "Spr_Button",
+    "path": "sprites/Spr_Button/Spr_Button.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Buttons",
-    "path": "objects/Obj_Buttons/Obj_Buttons.yy",
+    "name": "Obj_Button",
+    "path": "objects/Obj_Button/Obj_Button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,6 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

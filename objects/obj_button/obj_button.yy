@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Button",
+    "path": "sprites/Spr_Button/Spr_Button.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,6 +24,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,7 +34,7 @@
     "path": "folders/Objects/GUI_Components/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Buttons",
+  "name": "Obj_Button",
   "tags": [],
   "resourceType": "GMObject",
 }

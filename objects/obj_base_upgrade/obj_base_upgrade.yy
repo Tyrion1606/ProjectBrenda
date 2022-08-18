@@ -6,8 +6,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Buttons_1",
-    "path": "objects/Obj_Buttons_1/Obj_Buttons_1.yy",
+    "name": "Obj_Button",
+    "path": "objects/Obj_Button/Obj_Button.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
