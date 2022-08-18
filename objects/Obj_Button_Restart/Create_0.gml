@@ -1,2 +1,2 @@
 event_inherited()
-Label = "Back";
+Label = "Restart";

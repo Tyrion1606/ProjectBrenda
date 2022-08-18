@@ -1,0 +1,2 @@
+/// @description Dinheiros++
+global.Dinheiros++;
