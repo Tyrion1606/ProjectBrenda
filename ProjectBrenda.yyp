@@ -239,6 +239,7 @@
     {"id":{"name":"Obj_Points","path":"objects/Obj_Points/Obj_Points.yy",},"order":7,},
     {"id":{"name":"Obj_Turret_02_Shadow","path":"objects/Obj_Turret_02_Shadow/Obj_Turret_02_Shadow.yy",},"order":3,},
     {"id":{"name":"spr_audio","path":"sprites/spr_audio/spr_audio.yy",},"order":4,},
+    {"id":{"name":"Spr_b","path":"sprites/Spr_b/Spr_b.yy",},"order":37,},
     {"id":{"name":"spr_twitter","path":"sprites/spr_twitter/spr_twitter.yy",},"order":94,},
     {"id":{"name":"spr_no","path":"sprites/spr_no/spr_no.yy",},"order":53,},
     {"id":{"name":"spr_leaderboard","path":"sprites/spr_leaderboard/spr_leaderboard.yy",},"order":37,},
