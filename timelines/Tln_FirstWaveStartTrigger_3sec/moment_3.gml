@@ -2,6 +2,8 @@ with(Obj_RoomController){
 	if(!Triggered){
 		Triggered = true;
 	
+	/* =====moved to room start=====
+	
 		//Work out number of waves and enemies per wave
 		Total_Waves = -1;
 		for(var i = 0 ; i < ds_list_size(Waves) ; i++){
@@ -12,6 +14,10 @@ with(Obj_RoomController){
 			}
 			Remaining[Total_Waves]++;
 		}
+		
+		=====moved to room start=====
+	*/
+	
 	}
 }
 
