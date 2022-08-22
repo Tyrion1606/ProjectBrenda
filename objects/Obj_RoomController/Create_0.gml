@@ -19,4 +19,4 @@ timeline_index = Tln_FirstWaveStartTrigger_3sec;
 timeline_position = 0;
 timeline_running = true;
 
-DebugingGUIlock = true;
+DebugingGUIlock = false;

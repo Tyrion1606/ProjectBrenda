@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "Spr_Moldura",
-    "path": "sprites/Spr_Moldura/Spr_Moldura.yy",
+    "name": "Spr_Button",
+    "path": "sprites/Spr_Button/Spr_Button.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_Button",
+    "path": "objects/Obj_Button/Obj_Button.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,17 +25,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI_Components",
-    "path": "folders/Objects/GUI_Components.yy",
+    "name": "LabeledButtons",
+    "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Inventory",
+  "name": "Obj_Button_MainMenu",
   "tags": [],
   "resourceType": "GMObject",
 }
