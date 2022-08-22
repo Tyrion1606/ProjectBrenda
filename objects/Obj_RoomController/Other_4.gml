@@ -12,3 +12,7 @@ for(var i = 0 ; i < ds_list_size(Waves) ; i++){
 	}
 	Remaining[Total_Waves]++;
 }
+if(global.RestartFlag){
+	room_restart();
+	global.RestartFlag = false;
+}

@@ -70,6 +70,7 @@
 	global.TempRoomStack = ds_stack_create();	// Stores the last rooms when its needed. (for setings screen for example)
 	global.LostTrigger = false;
 	global.LevelCleaned = false;
+	global.RestartFlag = false;
 #endregion
 
 show_debug_overlay(true);
@@ -86,4 +87,3 @@ show_debug_overlay(true);
 	window_set_size(wWindowSize,hWindowSize);	// Sets the size
 	window_center();	// Grants the Centered Window
 #endregion
-
