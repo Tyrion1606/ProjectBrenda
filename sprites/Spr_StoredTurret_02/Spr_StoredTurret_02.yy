@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_right": 10,
+  "bbox_top": 2,
+  "bbox_bottom": 9,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 12,
+  "height": 12,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e53ec721-8a74-4536-b780-fe3daa88b48d","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e53ec721-8a74-4536-b780-fe3daa88b48d","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"LayerId":{"name":"0662d7c1-320c-4b14-b0fb-14d65a30c28b","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","name":"e53ec721-8a74-4536-b780-fe3daa88b48d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"485cd7f7-f9ae-42a6-8d19-220e0df0269e","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"485cd7f7-f9ae-42a6-8d19-220e0df0269e","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"LayerId":{"name":"cab8cba9-b009-4e0f-98ca-2353de2272f0","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","name":"485cd7f7-f9ae-42a6-8d19-220e0df0269e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"db05ce90-5d58-46e8-ba4b-633a8c51ed17","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e53ec721-8a74-4536-b780-fe3daa88b48d","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"8a5e2271-1d33-42e5-a8c2-f72746007576","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"485cd7f7-f9ae-42a6-8d19-220e0df0269e","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 32,
+    "xorigin": 6,
+    "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_StoredTurret_02","path":"sprites/Spr_StoredTurret_02/Spr_StoredTurret_02.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0662d7c1-320c-4b14-b0fb-14d65a30c28b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cab8cba9-b009-4e0f-98ca-2353de2272f0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
