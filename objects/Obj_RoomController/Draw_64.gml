@@ -22,10 +22,10 @@ draw_text_transformed(room_width*0.85, room_height/32, "CASH: " + string(global.
 	var i = 0;
 	while(i < ds_list_size(Waves)){
 		var WaveElement = ds_list_find_value(Waves,i);
-		if(WaveElement[_WAVE] == Current_Wave){
+		if((WaveElement[_WAVE] == Current_Wave) and (WaveElement[_DELAY] >= Timer)){
 			draw_set_color(c_white);
 			draw_set_font(Fnt_General);
-			draw_text(8,96+32*y_OffSet,string(ds_list_find_value(Waves,i)))
+			draw_text(8,96+32*y_OffSet,string(ds_list_find_value(Waves,i)[_TYPE]));
 			y_OffSet++;
 		}
 		i++;
