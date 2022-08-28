@@ -175,6 +175,7 @@
     {"id":{"name":"Obj_Button_Continue","path":"objects/Obj_Button_Continue/Obj_Button_Continue.yy",},"order":1,},
     {"id":{"name":"spr_sfx","path":"sprites/spr_sfx/spr_sfx.yy",},"order":81,},
     {"id":{"name":"spr_soundeffects","path":"sprites/spr_soundeffects/spr_soundeffects.yy",},"order":84,},
+    {"id":{"name":"Obj_Turret_Base","path":"objects/Obj_Turret_Base/Obj_Turret_Base.yy",},"order":3,},
     {"id":{"name":"spr_buy","path":"sprites/spr_buy/spr_buy.yy",},"order":7,},
     {"id":{"name":"Obj_Turret","path":"objects/Obj_Turret/Obj_Turret.yy",},"order":1,},
     {"id":{"name":"Obj_Enemy_2","path":"objects/Obj_Enemy_2/Obj_Enemy_2.yy",},"order":1,},
@@ -393,7 +394,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"submin.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "ProjectBrenda",

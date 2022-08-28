@@ -56,7 +56,11 @@ if(Obj_Instead_Tile_Flag = 2) {
 			// and Doublecheking the Selected by redundance
 			// Creates a turrent on the shadow position 
 			if(global.Dinheiros >= TurretValue){
-				instance_create_layer(id.x, id.y, "Instances", TurretObject);
+				var Base = instance_create_layer(id.x, id.y, "Sockets", Obj_Turret_Base);
+				with(Base){
+					 instance_create_layer(id.x, id.y, "Instances", other.TurretObject);
+				}
+				
 				global.Dinheiros -= TurretValue;
 			}
 		}		
