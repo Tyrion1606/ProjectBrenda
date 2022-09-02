@@ -1,4 +1,4 @@
-/// @description Insert description here
+		/// @description Insert description here
 // You can write your code in this editor
 
 // Inherit the parent event
@@ -19,13 +19,13 @@ image_speed = 0;
 image_index = 1;
 
 // Instanciate the whips to atack
-instance_create_layer(x + lengthdir_y(sprite_height/2, image_angle),
-					  y - lengthdir_x(sprite_height/2, image_angle),
-					  "Shoots", Obj_Whip, 
+instance_create_layer(id.x + lengthdir_x(sprite_height/2, image_angle),
+					  id.y + lengthdir_y(sprite_width/2, image_angle),
+					  "Shoots", Obj_Laser, 
 					  { 
 						Damage : id.TurretDamage,
 						image_angle : id.image_angle,
-						image_yscale : id.FireDistance
+						image_xscale : id.FireDistance
 					  });
 #endregion
 

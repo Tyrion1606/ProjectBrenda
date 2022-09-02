@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Obj_Plus_T5Range","path":"objects/Obj_Plus_T5Range/Obj_Plus_T5Range.yy",},"order":2,},
-    {"id":{"name":"Obj_Whip","path":"objects/Obj_Whip/Obj_Whip.yy",},"order":3,},
+    {"id":{"name":"Obj_Laser","path":"objects/Obj_Laser/Obj_Laser.yy",},"order":3,},
     {"id":{"name":"spr_load","path":"sprites/spr_load/spr_load.yy",},"order":39,},
     {"id":{"name":"Obj_Bomb_Impact","path":"objects/Obj_Bomb_Impact/Obj_Bomb_Impact.yy",},"order":4,},
     {"id":{"name":"Scr_PauseToggle","path":"scripts/Scr_PauseToggle/Scr_PauseToggle.yy",},"order":3,},

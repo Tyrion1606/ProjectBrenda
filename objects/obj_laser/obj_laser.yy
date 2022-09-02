@@ -32,7 +32,7 @@
     "path": "folders/Objects/Turrets/Turret_04.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Whip",
+  "name": "Obj_Laser",
   "tags": [],
   "resourceType": "GMObject",
 }

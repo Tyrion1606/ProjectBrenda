@@ -31,7 +31,8 @@
 		Turret_04 : {
 			Damage : 0,
 			Speed : 0,		// acredito ser desnecessário
-			Duration : 0	// acredito ser desnecessário também
+			Duration : 0,	// acredito ser desnecessário também
+			FireDistance : 0
 		},
 		Turret_05 : {
 			Freeze : 0,
