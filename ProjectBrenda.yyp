@@ -51,6 +51,7 @@
     {"id":{"name":"spr_joinparty","path":"sprites/spr_joinparty/spr_joinparty.yy",},"order":34,},
     {"id":{"name":"Obj_Turret_01_Upgrade","path":"objects/Obj_Turret_01_Upgrade/Obj_Turret_01_Upgrade.yy",},"order":0,},
     {"id":{"name":"spr_download","path":"sprites/spr_download/spr_download.yy",},"order":17,},
+    {"id":{"name":"Scr_PutObj","path":"scripts/Scr_PutObj/Scr_PutObj.yy",},"order":11,},
     {"id":{"name":"spr_redo","path":"sprites/spr_redo/spr_redo.yy",},"order":67,},
     {"id":{"name":"Obj_Plus_T5BulletSpeed","path":"objects/Obj_Plus_T5BulletSpeed/Obj_Plus_T5BulletSpeed.yy",},"order":3,},
     {"id":{"name":"spr_gameoptions","path":"sprites/spr_gameoptions/spr_gameoptions.yy",},"order":24,},

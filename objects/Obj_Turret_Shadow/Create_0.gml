@@ -8,7 +8,7 @@ if !variable_instance_exists(id, "TurretObject")
 AntibugDelay = 20;		// It inhibits the bug that creates a turret just after clicking the 
 						// instantiator by waiting a time before it can create a turret
 
-Selected = false;		// If selected = true, it will follow the mouse
+Selected = true;		// If selected = true, it will follow the mouse
 id.image_alpha = 0.5;	// seting the 'alpha < 1' will mage it gosthly by give it somw transparency
 
 

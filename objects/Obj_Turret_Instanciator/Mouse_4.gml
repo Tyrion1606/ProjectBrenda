@@ -8,5 +8,12 @@ if(instance_number(Obj_Turret_Shadow)>0){
 }
 
 // On Clicked, this object creates the "Shadow" that allow you to chose the location to create a new turret:
-ThisInstance = instance_create_layer(mouse_x,mouse_y,"Instances", TurretShadow); // Stores the id of the recently created "Shadow" for future configurations
-ThisInstance.Selected = true;	// Set the new "Shadow" to start following the mouse
+ThisShadow = instance_create_layer(mouse_x,mouse_y,"Instances", TurretShadow);
+ThisShadow.Selected = true;	// Set the new "Shadow" to start following the mouse [deprecated]
+
+ThisBase = instance_create_layer(mouse_x,mouse_y,"Sockets", Obj_Turret_Base); // Stores the id of the recently created "Base" for future configurations
+ThisBase.Selected = true;	// Set the new "Base" to start following the mouse
+
+with(ThisShadow){
+	MyBase = other.ThisBase;
+}

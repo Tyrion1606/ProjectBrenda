@@ -1,3 +1,7 @@
+SnapSelection = 2	// Selects what Snap system to use, based on the Index above:
+					// '0' = GameMaker's Snap + half size correction (it moves half Square)
+					// '1' = Álex's Snap (it moves half Square only if the mouse is right betheen 2 squares)
+					// '2' = Base Based Snap (It follows the Base position, that have it origin on [0,0], so it can use GameMaker's Snap jusf for full Squares)
 
 if (AntibugDelay > 0){
 	// The antibug logic, explaned in 'Create' code, where the variable "AntibugDelay" is created
@@ -5,21 +9,31 @@ if (AntibugDelay > 0){
 } 
 
 if(id.Selected){
-	// If 'Selected = true', this object will follow the mouse
-	id.x = mouse_x;
-	id.y = mouse_y;
+	// If 'Selected = true', this object will follow the mouse thiyng to stay Snapped
 	
-	var HalfSpriteX = sprite_width / 2;
-	var HalfSpriteY = sprite_height / 2;
+	//Stores half Sprite Sizes
+	var HalfSpriteX = (sprite_width / 2);
+	var HalfSpriteY = (sprite_height / 2);
 	
-	// Snap the object on the miffle of a grid
-	id.x = round(id.x / HalfSpriteX + power(- 1, round((id.x % sprite_width)/sprite_width)) / 2) * HalfSpriteX;
-	id.y = round(id.y / HalfSpriteY + power(- 1, round((id.y % sprite_height)/sprite_height)) / 2) * HalfSpriteY;
-	
-	
-	// move_snap(HalfSpriteX, HalfSpriteY);	// It Snaps the object on a grid with (arg1 x arg2) size
-	// id.x -= sprite_width  / 2;
-	// id.y -= sprite_height / 2;
+	// Move and Snaps the object with one of the 3 methods bellow:
+	switch(SnapSelection){
+		case(0):	// GameMaker's Standard Snap + Half Squared
+			id.x = mouse_x;
+			id.y = mouse_y;
+
+			move_snap(HalfSpriteX, HalfSpriteY);	// It Snaps the object on a grid with (arg1 x arg2) size
+		break;
+		case(1):	// Álex's Snap
+			id.x = mouse_x;
+			id.y = mouse_y;
+			id.x = round(id.x / HalfSpriteX + power(- 1, round((id.x % sprite_width)/sprite_width)) / 2) * HalfSpriteX;
+			id.y = round(id.y / HalfSpriteY + power(- 1, round((id.y % sprite_height)/sprite_height)) / 2) * HalfSpriteY;
+		break;
+		case(2):
+			id.x = MyBase.x+HalfSpriteX;
+			id.y = MyBase.y+HalfSpriteY;
+		break;
+	}
 }
 
 
