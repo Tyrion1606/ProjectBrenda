@@ -74,7 +74,7 @@
 	global.RestartFlag = false;
 #endregion
 
-show_debug_overlay(false);
+show_debug_overlay(true);
 
 
 #region Set initial Resolution and Screen Size

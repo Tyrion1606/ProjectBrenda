@@ -88,7 +88,7 @@ function Scr_PutObj(PutModeSelection){
 			&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - sprite_height/2, id.y)) != PathTileID
 				&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - 1 + sprite_height/2)) != PathTileID
 					&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - 1 + sprite_height/2, id.y)) != PathTileID
-						&& place_empty(id.x, id.y,Obj_Turret)){
+						&& !position_meeting(id.x, id.y,Obj_Turret)){
 			if(Selected and AntibugDelay <= 0){
 				// By clicking, and After the AntibugDelay(explaned in 'Create')
 				// and Doublecheking the Selected by redundance
