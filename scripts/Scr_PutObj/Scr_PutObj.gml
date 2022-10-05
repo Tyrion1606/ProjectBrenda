@@ -82,6 +82,8 @@ function Scr_PutObj(PutModeSelection){
 		// 6th - Check for turrets at the point of click
 		TileMapID = layer_tilemap_get_id("MapTiles");
 		var PathTileID = 3;
+		var HalfSpriteX = (sprite_width / 2);
+		var HalfSpriteY = (sprite_height / 2);
 		if(tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - sprite_height/2)) != PathTileID
 			&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - sprite_height/2, id.y)) != PathTileID
 				&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - 1 + sprite_height/2)) != PathTileID
@@ -95,8 +97,6 @@ function Scr_PutObj(PutModeSelection){
 						instance_create_layer(id.x, id.y, "Instances", TurretObject);	//Puts the turret
 						
 						//Puts the Base right above the turret
-						var HalfSpriteX = (sprite_width / 2);
-						var HalfSpriteY = (sprite_height / 2);
 						instance_create_layer(id.x-HalfSpriteX, id.y-HalfSpriteY, "Sockets", Obj_Turret_Base);
 						
 					global.Dinheiros -= TurretValue;
