@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "Spr_CheckBox",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"18f283d5-c6d9-426f-8b37-f171f5219383","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"18f283d5-c6d9-426f-8b37-f171f5219383","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"LayerId":{"name":"0571fd5e-75d9-4896-a0d4-4089fa58096b","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_CheckBox","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","name":"18f283d5-c6d9-426f-8b37-f171f5219383","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"007b033c-0f99-4eb5-aa4b-a178f1e427d7","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"007b033c-0f99-4eb5-aa4b-a178f1e427d7","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"LayerId":{"name":"0571fd5e-75d9-4896-a0d4-4089fa58096b","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_CheckBox","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","name":"007b033c-0f99-4eb5-aa4b-a178f1e427d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18f283d5-c6d9-426f-8b37-f171f5219383",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"007b033c-0f99-4eb5-aa4b-a178f1e427d7",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_CheckBox","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "Spr_CheckBox",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f2877111-f490-4a5f-8d03-632c00ab1048","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18f283d5-c6d9-426f-8b37-f171f5219383","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"d04b1294-2b5a-4352-9649-d4e420d5f9a6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"007b033c-0f99-4eb5-aa4b-a178f1e427d7","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_CheckBox","path":"sprites/Spr_CheckBox/Spr_CheckBox.yy",},
-    "resourceVersion": "1.4",
-    "name": "Spr_CheckBox",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0571fd5e-75d9-4896-a0d4-4089fa58096b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0571fd5e-75d9-4896-a0d4-4089fa58096b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Buttons",
     "path": "folders/Sprites/Buttons.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Spr_CheckBox",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

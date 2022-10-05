@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "Spr_Caravan_Front",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"610501a1-462e-436a-bce2-f5510ea14f51","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"610501a1-462e-436a-bce2-f5510ea14f51","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"LayerId":{"name":"6d9f671d-97d4-4e8b-bd0e-e79e589f5409","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Caravan_Front","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","name":"610501a1-462e-436a-bce2-f5510ea14f51","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"867dd7ca-a41a-4cc9-8957-8fc19ea2d249","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"867dd7ca-a41a-4cc9-8957-8fc19ea2d249","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"LayerId":{"name":"6d9f671d-97d4-4e8b-bd0e-e79e589f5409","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Caravan_Front","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","name":"867dd7ca-a41a-4cc9-8957-8fc19ea2d249","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"610501a1-462e-436a-bce2-f5510ea14f51",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"867dd7ca-a41a-4cc9-8957-8fc19ea2d249",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Caravan_Front","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "Spr_Caravan_Front",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 10.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fe43cf74-d074-43f9-8fca-561dec2446de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"610501a1-462e-436a-bce2-f5510ea14f51","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"32f986b7-3e7b-41f6-9c7d-6dde32a6e1ff","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"867dd7ca-a41a-4cc9-8957-8fc19ea2d249","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Caravan_Front","path":"sprites/Spr_Caravan_Front/Spr_Caravan_Front.yy",},
-    "resourceVersion": "1.4",
-    "name": "Spr_Caravan_Front",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6d9f671d-97d4-4e8b-bd0e-e79e589f5409","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6d9f671d-97d4-4e8b-bd0e-e79e589f5409","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "PlaceHoldersSprites",
     "path": "folders/Sprites/PlaceHoldersSprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Spr_Caravan_Front",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

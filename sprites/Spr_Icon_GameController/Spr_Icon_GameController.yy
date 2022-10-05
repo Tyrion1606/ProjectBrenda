@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "Spr_Icon_GameController",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3beb9bd8-d58e-40f4-8cf8-a1965554c9fb","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3beb9bd8-d58e-40f4-8cf8-a1965554c9fb","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},"LayerId":{"name":"5ea7208a-bae7-4264-a18e-84abfa1d805b","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Icon_GameController","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},"resourceVersion":"1.0","name":"3beb9bd8-d58e-40f4-8cf8-a1965554c9fb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3beb9bd8-d58e-40f4-8cf8-a1965554c9fb",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Icon_GameController","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "Spr_Icon_GameController",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"0ace3b2d-e1bb-44c1-b4ae-a1f1d16f1b0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3beb9bd8-d58e-40f4-8cf8-a1965554c9fb","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Icon_GameController","path":"sprites/Spr_Icon_GameController/Spr_Icon_GameController.yy",},
-    "resourceVersion": "1.4",
-    "name": "Spr_Icon_GameController",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ea7208a-bae7-4264-a18e-84abfa1d805b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ea7208a-bae7-4264-a18e-84abfa1d805b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "ConfigObjectsIcons",
     "path": "folders/Sprites/ConfigObjectsIcons.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Spr_Icon_GameController",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
