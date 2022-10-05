@@ -29,7 +29,13 @@ draw_text_transformed(Obj_Inventory.x + (Obj_Inventory.sprite_width/2), room_hei
 	while(i < ds_list_size(Waves)){
 		var WaveElement = ds_list_find_value(Waves,i);
 		if((WaveElement[_WAVE] == Current_Wave) and (WaveElement[_DELAY] >= Timer)){
-			draw_text(room_width/16,(Start_y+32)+32*y_OffSet,string(ds_list_find_value(Waves,i)[_TYPE]));
+			var TempObj = ds_list_find_value(Waves,i)[_TYPE];
+			var TempSprite = object_get_sprite(TempObj);
+			draw_sprite_ext(TempSprite, 0, room_width/15, (Start_y+43)+32*y_OffSet, 0.5, 0.5, 0, c_white, 1);
+			draw_rectangle(room_width/18, (Start_y+29)+32*y_OffSet, room_width/10, (Start_y+56)+32*y_OffSet, true);
+			draw_text_transformed(room_width/11.5,(Start_y+37)+32*y_OffSet,string("[Type]"), 0.6, 0.6, 0);
+
+			
 			y_OffSet++;
 		}
 		i++;
