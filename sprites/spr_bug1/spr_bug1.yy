@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 4,
-  "bbox_bottom": 43,
+  "bbox_top": 0,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"742e617b-addb-469f-bc92-2c87fc0f4c49","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"742e617b-addb-469f-bc92-2c87fc0f4c49","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},"LayerId":{"name":"3661872d-11ba-4be9-a73d-d7d5a4ab5ed2","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Bugbeetle","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},"resourceVersion":"1.0","name":"742e617b-addb-469f-bc92-2c87fc0f4c49","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bc5500e9-2467-4582-8d3b-b95dc84c2362","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bc5500e9-2467-4582-8d3b-b95dc84c2362","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},"LayerId":{"name":"67dabbcd-abb5-419b-b26c-d4a199dadb26","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Bug1","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},"resourceVersion":"1.0","name":"bc5500e9-2467-4582-8d3b-b95dc84c2362","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Bugbeetle","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},
+    "spriteId": {"name":"Spr_Bug1","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0a9db6b3-73cf-4f34-99fc-c0ec705332cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"742e617b-addb-469f-bc92-2c87fc0f4c49","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"23b179fe-ddf3-410e-9de0-d4f8634f46ec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc5500e9-2467-4582-8d3b-b95dc84c2362","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 24,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Bugbeetle","path":"sprites/Spr_Bugbeetle/Spr_Bugbeetle.yy",},
+    "parent": {"name":"Spr_Bug1","path":"sprites/Spr_Bug1/Spr_Bug1.yy",},
     "resourceVersion": "1.4",
-    "name": "Spr_Bugbeetle",
+    "name": "Spr_Bug1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3661872d-11ba-4be9-a73d-d7d5a4ab5ed2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67dabbcd-abb5-419b-b26c-d4a199dadb26","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Enimies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Bugbeetle",
+  "name": "Spr_Bug1",
   "tags": [],
   "resourceType": "GMSprite",
 }

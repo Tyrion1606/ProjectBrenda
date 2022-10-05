@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 47,
-  "bbox_top": 4,
-  "bbox_bottom": 43,
+  "bbox_top": 0,
+  "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"be12920b-9757-4ec7-b556-7f80084542ac","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"be12920b-9757-4ec7-b556-7f80084542ac","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},"LayerId":{"name":"9f3ddaf8-4022-4288-afac-30ee0655322a","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Bugfly","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},"resourceVersion":"1.0","name":"be12920b-9757-4ec7-b556-7f80084542ac","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7e286707-43e0-4e2f-b8d1-da4303e5da50","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7e286707-43e0-4e2f-b8d1-da4303e5da50","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},"LayerId":{"name":"9ccc117c-2e91-4036-a9d6-f2a6b8e769ea","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Bug4","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},"resourceVersion":"1.0","name":"7e286707-43e0-4e2f-b8d1-da4303e5da50","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Bugfly","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},
+    "spriteId": {"name":"Spr_Bug4","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8a12e94c-0dbb-4f41-a4d2-bdd5875bc305","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be12920b-9757-4ec7-b556-7f80084542ac","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"221a1f37-8242-4aca-985d-0898f67fdfbf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e286707-43e0-4e2f-b8d1-da4303e5da50","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Bugfly","path":"sprites/Spr_Bugfly/Spr_Bugfly.yy",},
+    "parent": {"name":"Spr_Bug4","path":"sprites/Spr_Bug4/Spr_Bug4.yy",},
     "resourceVersion": "1.4",
-    "name": "Spr_Bugfly",
+    "name": "Spr_Bug4",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9f3ddaf8-4022-4288-afac-30ee0655322a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9ccc117c-2e91-4036-a9d6-f2a6b8e769ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Enimies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Bugfly",
+  "name": "Spr_Bug4",
   "tags": [],
   "resourceType": "GMSprite",
 }
