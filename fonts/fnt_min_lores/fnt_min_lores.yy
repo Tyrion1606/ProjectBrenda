@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMFont",
+  "resourceVersion": "1.0",
+  "name": "Fnt_Min_LoRes",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,
@@ -76,8 +79,4 @@
     "name": "Fonts",
     "path": "folders/Fonts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Fnt_Min_LoRes",
-  "tags": [],
-  "resourceType": "GMFont",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Plus_T3AtkSpeed",
   "spriteId": {
     "name": "Spr_AttackSpeed",
     "path": "sprites/Spr_AttackSpeed/Spr_AttackSpeed.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Turret03_Upgrades",
     "path": "folders/Objects/Upgrades/Turret03_Upgrades.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Plus_T3AtkSpeed",
-  "tags": [],
-  "resourceType": "GMObject",
 }

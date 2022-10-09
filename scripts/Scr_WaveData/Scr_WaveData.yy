@@ -1,12 +1,11 @@
 {
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "Scr_WaveData",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Scr_WaveData",
-  "tags": [],
-  "resourceType": "GMScript",
 }

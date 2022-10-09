@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "Path4",
   "kind": 0,
   "closed": false,
   "precision": 4,
@@ -20,8 +23,4 @@
     "name": "Paths",
     "path": "folders/Paths.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Path4",
-  "tags": [],
-  "resourceType": "GMPath",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Enemy_1",
   "spriteId": {
     "name": "Spr_Bug3",
     "path": "sprites/Spr_Bug3/Spr_Bug3.yy",
@@ -31,8 +34,4 @@
     "name": "Enemies",
     "path": "folders/Objects/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Enemy_1",
-  "tags": [],
-  "resourceType": "GMObject",
 }

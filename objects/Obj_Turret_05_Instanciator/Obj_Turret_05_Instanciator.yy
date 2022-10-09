@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Turret_05_Instanciator",
   "spriteId": {
     "name": "Spr_StoredTurret_05",
     "path": "sprites/Spr_StoredTurret_05/Spr_StoredTurret_05.yy",
@@ -25,8 +28,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,8 +37,4 @@
     "name": "Turret_05",
     "path": "folders/Objects/Turrets/Turret_05.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Turret_05_Instanciator",
-  "tags": [],
-  "resourceType": "GMObject",
 }

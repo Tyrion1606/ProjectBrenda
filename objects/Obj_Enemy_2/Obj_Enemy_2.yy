@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Enemy_2",
   "spriteId": {
     "name": "Spr_Spider_Right",
     "path": "sprites/Spr_Spider_Right/Spr_Spider_Right.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Enemies",
     "path": "folders/Objects/Enemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Enemy_2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

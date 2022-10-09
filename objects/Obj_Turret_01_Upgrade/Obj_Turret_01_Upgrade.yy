@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Turret_01_Upgrade",
   "spriteId": {
     "name": "Spr_StoredTurret_01",
     "path": "sprites/Spr_StoredTurret_01/Spr_StoredTurret_01.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "TurretsUpgrades",
     "path": "folders/Objects/Upgrades/TurretsUpgrades.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Turret_01_Upgrade",
-  "tags": [],
-  "resourceType": "GMObject",
 }
