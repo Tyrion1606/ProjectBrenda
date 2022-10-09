@@ -1,2 +1,2 @@
 /// @description Put a instance
-Scr_PutObj(3);
+Scr_PutObj(4);

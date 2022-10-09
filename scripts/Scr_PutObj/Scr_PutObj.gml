@@ -84,11 +84,21 @@ function Scr_PutObj(PutModeSelection){
 		var PathTileID = 3;
 		var HalfSpriteX = (sprite_width / 2);
 		var HalfSpriteY = (sprite_height / 2);
-		if(tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - sprite_height/2)) != PathTileID
-			&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - sprite_height/2, id.y)) != PathTileID
-				&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - 1 + sprite_height/2)) != PathTileID
-					&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - 1 + sprite_height/2, id.y)) != PathTileID
-						&& !position_meeting(id.x, id.y,Obj_Turret)){
+		
+		var Comparison_1 = tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - sprite_height/2)) != PathTileID
+		var Comparison_2 = tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - sprite_height/2, id.y)) != PathTileID
+		var Comparison_3 = tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - 1 + sprite_height/2)) != PathTileID
+		var Comparison_4 = tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - 1 + sprite_height/2, id.y)) != PathTileID
+		var Comparison_5 = !position_meeting(id.x, id.y,Obj_Turret)
+		
+		show_debug_message("[PutObj Script]" + string(Comparison_1) + string(Comparison_2) + string(Comparison_3) + string(Comparison_4) + string(Comparison_5));
+		
+		
+		if(Comparison_1
+			&& Comparison_2
+				&& Comparison_3
+					&& Comparison_4
+						&& Comparison_5){
 			if(Selected and AntibugDelay <= 0){
 				// By clicking, and After the AntibugDelay(explaned in 'Create')
 				// and Doublecheking the Selected by redundance
@@ -103,5 +113,30 @@ function Scr_PutObj(PutModeSelection){
 				}
 			}		
 		}
+	}
+	
+	if(PutModeSelection = 4) {
+		// Check if the place is a path or if already has a turret at this place
+
+		TileMapID = layer_tilemap_get_id("MapTiles");
+		var PathTileID = 0;		// "0" is the empty tile
+		var HalfSpriteX = (sprite_width / 2);
+		var HalfSpriteY = (sprite_height / 2);
+		
+		var PathCheck = tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y)) == PathTileID; // check if it is a autorized tile to put on
+		var TurretCheck = !position_meeting(id.x, id.y,Obj_Turret);	// Check if the space is occuppied
+		
+		show_debug_message("[Scr_PutObj] Path:[" + string(PathCheck) + "] Occuped:[" + string(TurretCheck) + "]");
+		
+		if(PathCheck and TurretCheck and Selected  and AntibugDelay <= 0){
+			// By clicking, and After the AntibugDelay(explaned in 'Create')
+			// and Doublecheking the Selected by redundance
+			// Creates a turrent on the shadow position 
+			if(global.Dinheiros >= TurretValue){
+				instance_create_layer(id.x, id.y, "Instances", TurretObject);	//Puts the turret
+				instance_create_layer(id.x-HalfSpriteX, id.y-HalfSpriteY, "Sockets", Obj_Turret_Base);	//Puts the Base right above the turret
+				global.Dinheiros -= TurretValue;
+			}
+		}		
 	}
 }

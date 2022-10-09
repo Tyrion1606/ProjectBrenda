@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "TestTileset",
   "spriteId": {
     "name": "Spr_Blank_TileSet",
     "path": "sprites/Spr_Blank_TileSet/Spr_Blank_TileSet.yy",
@@ -51,8 +54,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "TestTileset",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

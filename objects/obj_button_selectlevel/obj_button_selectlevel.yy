@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Button_SelectLevel",
   "spriteId": {
     "name": "Spr_Button",
     "path": "sprites/Spr_Button/Spr_Button.yy",
@@ -33,8 +36,8 @@
     {"x":0.0,"y":125.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -42,8 +45,4 @@
     "name": "LabeledButtons",
     "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Button_SelectLevel",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Plus_T5BulletSpeed",
   "spriteId": {
     "name": "Spr_BulletSpeed",
     "path": "sprites/Spr_BulletSpeed/Spr_BulletSpeed.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Turret05_Upgrades",
     "path": "folders/Objects/Upgrades/Turret05_Upgrades.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Plus_T5BulletSpeed",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Obj_Button_Resolution_480",
   "spriteId": {
     "name": "Spr_Button_Resolution_480p",
     "path": "sprites/Spr_Button_Resolution_480p/Spr_Button_Resolution_480p.yy",
@@ -25,7 +28,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,8 +36,4 @@
     "name": "Buttons",
     "path": "folders/Objects/GUI_Components/Buttons.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Obj_Button_Resolution_480",
-  "tags": [],
-  "resourceType": "GMObject",
 }

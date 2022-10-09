@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_Turret_Base",
   "spriteId": {
-    "name": "Spri_CI",
-    "path": "sprites/Spri_CI/Spri_CI.yy",
+    "name": "Spr_CI",
+    "path": "sprites/Spr_CI/Spr_CI.yy",
   },
   "solid": false,
   "visible": true,
