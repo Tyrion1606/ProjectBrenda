@@ -1,4 +1,5 @@
-HP = 10;		// Sets the Initial Life
+HP = 1;		// Sets the Initial Life
+HPmax = HP;		// Sets the Initial max Life
 MoveSpeed = 1;	// The move speed of the enemy instance
 EnemyDeathValue = 1;
 #macro _PATH 1

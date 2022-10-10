@@ -1,7 +1,8 @@
 /// @description Insert description here
 event_inherited();
 
-HP = 250;
+HP = 30;
+HPmax = HP;
 MoveSpeed = 1.4;
 EnemyDeathValue = 5;
 

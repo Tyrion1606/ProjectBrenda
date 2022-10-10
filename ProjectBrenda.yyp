@@ -282,6 +282,7 @@
     {"id":{"name":"Obj_Button_NewGame","path":"objects/Obj_Button_NewGame/Obj_Button_NewGame.yy",},"order":3,},
     {"id":{"name":"Obj_Plus_T4FireDistance","path":"objects/Obj_Plus_T4FireDistance/Obj_Plus_T4FireDistance.yy",},"order":1,},
     {"id":{"name":"Scr_Path_SearchModes","path":"scripts/Scr_Path_SearchModes/Scr_Path_SearchModes.yy",},"order":2,},
+    {"id":{"name":"Scr_Linked_SquaresBar_AltoAdjust","path":"scripts/Scr_Linked_SquaresBar_AltoAdjust/Scr_Linked_SquaresBar_AltoAdjust.yy",},"order":12,},
     {"id":{"name":"Spr_Spider_Right","path":"sprites/Spr_Spider_Right/Spr_Spider_Right.yy",},"order":1,},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},"order":86,},
     {"id":{"name":"spr_other","path":"sprites/spr_other/spr_other.yy",},"order":55,},

@@ -1,8 +1,9 @@
 /// @description Insert description here
 event_inherited();
 
-HP = 2000;
-MoveSpeed = 1;
+HP = 200;
+HPmax = HP;
+MoveSpeed = 0.5;
 EnemyDeathValue = 6;
 
 #region Self Apearence set:

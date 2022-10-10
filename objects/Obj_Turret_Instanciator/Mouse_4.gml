@@ -1,6 +1,6 @@
 ///@description Instantiates the shadow to the respective turret
 
-// Verify if has a shadow sekected
+// Verify if has a shadow selected
 if(instance_number(Obj_Turret_Shadow)>0){
 	for (var i = 0; i < instance_number(Obj_Turret_Shadow); ++i;){
 		instance_destroy(instance_find(Obj_Turret_Shadow,i));
