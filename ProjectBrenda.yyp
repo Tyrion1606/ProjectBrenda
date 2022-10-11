@@ -266,6 +266,7 @@
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},"order":63,},
     {"id":{"name":"Spr_Icon_Pause","path":"sprites/Spr_Icon_Pause/Spr_Icon_Pause.yy",},"order":2,},
     {"id":{"name":"Spr_StoredTurret_05","path":"sprites/Spr_StoredTurret_05/Spr_StoredTurret_05.yy",},"order":0,},
+    {"id":{"name":"Spr_Tilemap_Componentsedit","path":"sprites/Spr_Tilemap_Componentsedit/Spr_Tilemap_Componentsedit.yy",},"order":44,},
     {"id":{"name":"spr_easy","path":"sprites/spr_easy/spr_easy.yy",},"order":18,},
     {"id":{"name":"Spr_Turret_04","path":"sprites/Spr_Turret_04/Spr_Turret_04.yy",},"order":1,},
     {"id":{"name":"Obj_Turret_03_Shadow","path":"objects/Obj_Turret_03_Shadow/Obj_Turret_03_Shadow.yy",},"order":1,},
