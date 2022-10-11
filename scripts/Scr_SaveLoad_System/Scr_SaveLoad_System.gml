@@ -25,6 +25,7 @@ function Scr_Load(){
 		global.Upgrades = json_parse(JsonString);
 		show_debug_message("[Scr.Load] DADOS DE UPGRADES CARREGADOS:\n" + string(global.Upgrades));
 		
+		
 		var file = file_text_open_read("Progression.txt");
 		var JsonString = file_text_read_string(file);
 		file_text_close(file);

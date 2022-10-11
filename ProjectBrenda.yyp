@@ -164,6 +164,7 @@
     {"id":{"name":"Obj_Plus_T2AtkSpeed","path":"objects/Obj_Plus_T2AtkSpeed/Obj_Plus_T2AtkSpeed.yy",},"order":0,},
     {"id":{"name":"spr_profile","path":"sprites/spr_profile/spr_profile.yy",},"order":61,},
     {"id":{"name":"Obj_Plus_T2BombSpeed","path":"objects/Obj_Plus_T2BombSpeed/Obj_Plus_T2BombSpeed.yy",},"order":3,},
+    {"id":{"name":"Scr_LevelsDataLoad","path":"scripts/Scr_LevelsDataLoad/Scr_LevelsDataLoad.yy",},"order":13,},
     {"id":{"name":"Obj_Button_Exit","path":"objects/Obj_Button_Exit/Obj_Button_Exit.yy",},"order":2,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":20,},
     {"id":{"name":"Fnt_Money_LoRes","path":"fonts/Fnt_Money_LoRes/Fnt_Money_LoRes.yy",},"order":5,},

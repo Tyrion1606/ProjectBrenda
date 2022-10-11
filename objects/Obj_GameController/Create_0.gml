@@ -88,3 +88,8 @@ show_debug_overlay(true);
 	window_set_size(wWindowSize,hWindowSize);	// Sets the size
 	window_center();	// Grants the Centered Window
 #endregion
+
+#region Load Levels Data
+global.LevelsData = Scr_LevelsDataLoad();
+show_debug_message("[LevelsDatatype]" + string(typeof(global.LevelsData[1][2])));
+#endregion

@@ -1,3 +1,21 @@
+function Scr_WaveDataLoad(Level, WaveArray){
+	#macro LVL 0
+	#macro Wave 1
+	#macro Enemy 2
+	#macro Time 3
+	
+	Waves = ds_list_create();
+	
+	var i = 0;
+	repeat(array_length(WaveArray)){
+		if(WaveArray[i][LVL] == Level){
+			ds_list_add(Waves, [WaveArray[i][Wave], asset_get_index(WaveArray[i][Enemy]), WaveArray[i][Time]]);
+		}
+		i++;
+	}
+	return Waves;
+}
+
 
 function Scr_WaveData(Level){
 	Waves = ds_list_create();
