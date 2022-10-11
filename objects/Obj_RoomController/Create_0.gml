@@ -10,7 +10,8 @@ Timer = 0
 Current_Wave = 0;
 
 // ==== estava no room start mas bugava ao ir e voltar do menú, arrumar depois ====
-Waves = Scr_WaveData(global.CurrentLevel);
+//show_debug_message("[LevelsData]" + string(global.LevelsData))
+Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);
 
 #macro _MONEY 2
 global.Dinheiros = global.LevelDataArray[global.CurrentLevel][_MONEY];
