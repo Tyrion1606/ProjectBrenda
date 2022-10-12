@@ -91,5 +91,4 @@ show_debug_overlay(true);
 
 #region Load Levels Data
 global.LevelsData = Scr_LevelsDataLoad();
-show_debug_message("[LevelsDatatype]" + string(typeof(global.LevelsData[1][2])));
 #endregion
