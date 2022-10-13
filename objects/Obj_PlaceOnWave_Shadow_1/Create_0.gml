@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
 
-SelfObj = Obj_PlacedEnemy_1;
+SelfObj = Obj_Enemy_1_Placed;
 image_blend = c_aqua;

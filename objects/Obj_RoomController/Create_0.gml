@@ -9,6 +9,8 @@ Triggered = false;
 Timer = 0
 Current_Wave = 0;
 
+global.LevelsData = Scr_LevelsDataLoad();	// recarrega os dados das waves
+
 // ==== estava no room start mas bugava ao ir e voltar do menú, arrumar depois ====
 //show_debug_message("[LevelsData]" + string(global.LevelsData))
 Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);
@@ -21,3 +23,4 @@ timeline_position = 0;
 timeline_running = true;
 
 DebugingGUIlock = false;
+

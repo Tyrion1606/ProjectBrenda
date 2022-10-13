@@ -34,7 +34,6 @@ draw_text_transformed(Obj_Inventory.x + (Obj_Inventory.sprite_width/2), room_hei
 			draw_sprite_ext(TempSprite, 0, room_width/15, (Start_y+43)+32*y_OffSet, 0.5, 0.5, 0, c_white, 1);
 			draw_rectangle(room_width/18, (Start_y+29)+32*y_OffSet, room_width/10, (Start_y+56)+32*y_OffSet, true);
 			draw_text_transformed(room_width/11.5,(Start_y+37)+32*y_OffSet,string("[Type]"), 0.6, 0.6, 0);
-
 			
 			y_OffSet++;
 		}
@@ -46,10 +45,8 @@ draw_text_transformed(Obj_Inventory.x + (Obj_Inventory.sprite_width/2), room_hei
 	draw_set_color(c_white);
 	draw_set_font(Fnt_Min_LoRes);
 	draw_set_halign(fa_center);
-	draw_text_transformed(room_width/18,(room_height/300),"LEVEL:" + string(global.CurrentLevel), 4,4,0)
+	draw_text_transformed(room_width/18,(room_height/300),"LEVEL:" + string(global.CurrentLevel+1), 4,4,0)	// +1 cause the user needs to see "level 1" instead "level 0"
 	draw_text_transformed(room_width/18,(room_height/64)+32,"WAVE", 4,4,0)
-	draw_text_transformed(room_width/18,(room_height/64)+64,string(Current_Wave) +"/" + string(Total_Waves), 4,4,0)
-	
-
+	draw_text_transformed(room_width/18,(room_height/64)+64,string(Current_Wave+1) +"/" + string(Total_Waves+1), 4,4,0)	// +1 cause the user needs to see "Wave 1" instead "Wave 0"
 	
 #endregion

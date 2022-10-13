@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Button_LevelSelect",
+  "name": "Obj_ValuePanel_LevelSet_Editor",
   "spriteId": {
-    "name": "Spr_LevelIcon_Numbers",
-    "path": "sprites/Spr_LevelIcon_Numbers/Spr_LevelIcon_Numbers.yy",
+    "name": "Spr_Blank_ValuePanel_4x3",
+    "path": "sprites/Spr_Blank_ValuePanel_4x3/Spr_Blank_ValuePanel_4x3.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Button",
-    "path": "objects/Obj_Button/Obj_Button.yy",
+    "name": "Obj_ValuePanel",
+    "path": "objects/Obj_ValuePanel/Obj_ValuePanel.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,17 +28,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "LevelSelect",
-    "path": "folders/Objects/GUI_Components/Buttons/LevelSelect.yy",
+    "name": "ValuePanels",
+    "path": "folders/Objects/GUI_Components/ValuePanels.yy",
   },
 }

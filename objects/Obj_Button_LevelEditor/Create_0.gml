@@ -1,2 +1,2 @@
 event_inherited()
-Label = "Level Edit";
+Label = "EDITOR";

@@ -1,0 +1,1 @@
+MyOwner = -1;	// -1 if no one takes this button to himself

@@ -76,7 +76,6 @@
 
 show_debug_overlay(true);
 
-
 #region Set initial Resolution and Screen Size
 	var wUserResolution = display_get_width();	//Get the Users Display Width resolution
 

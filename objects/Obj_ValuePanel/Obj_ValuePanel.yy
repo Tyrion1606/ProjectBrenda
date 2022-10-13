@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_PlacedEnemy_2",
+  "name": "Obj_ValuePanel",
   "spriteId": {
-    "name": "Spr_Enemy",
-    "path": "sprites/Spr_Enemy/Spr_Enemy.yy",
+    "name": "Spr_Blank_ValuePanel_4x3",
+    "path": "sprites/Spr_Blank_ValuePanel_4x3/Spr_Blank_ValuePanel_4x3.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_PlacedEnemy",
-    "path": "objects/Obj_PlacedEnemy/Obj_PlacedEnemy.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,12 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PlacedEnemies",
-    "path": "folders/Objects/WavegenObjPackage/PlacedEnemies.yy",
+    "name": "ValuePanels",
+    "path": "folders/Objects/GUI_Components/ValuePanels.yy",
   },
 }

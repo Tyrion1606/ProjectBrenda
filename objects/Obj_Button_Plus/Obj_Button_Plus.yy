@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_PlacedEnemy",
+  "name": "Obj_Button_Plus",
   "spriteId": {
-    "name": "Spr_Enemy",
-    "path": "sprites/Spr_Enemy/Spr_Enemy.yy",
+    "name": "Spr_Plus",
+    "path": "sprites/Spr_Plus/Spr_Plus.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,12 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PlacedEnemies",
-    "path": "folders/Objects/WavegenObjPackage/PlacedEnemies.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/GUI_Components/Buttons.yy",
   },
 }
