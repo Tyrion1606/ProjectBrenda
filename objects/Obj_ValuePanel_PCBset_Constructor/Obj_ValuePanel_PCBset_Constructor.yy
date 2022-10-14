@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_MainTower",
+  "name": "Obj_ValuePanel_PCBset_Constructor",
   "spriteId": {
-    "name": "Spr_MainTower",
-    "path": "sprites/Spr_MainTower/Spr_MainTower.yy",
+    "name": "Spr_Blank_ValuePanel_4x3",
+    "path": "sprites/Spr_Blank_ValuePanel_4x3/Spr_Blank_ValuePanel_4x3.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_ValuePanel",
+    "path": "objects/Obj_ValuePanel/Obj_ValuePanel.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,12 +30,12 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ValuePanels",
+    "path": "folders/Objects/GUI_Components/ValuePanels.yy",
   },
 }

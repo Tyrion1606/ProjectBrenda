@@ -11,7 +11,4 @@ if (MyOwner != -1) {
 }
 
 
-
-
-// talvez deva mudar de lugar
-Obj_LevelEditorController.ReloadWavesData_Flag = true;
+MyOwner.ChangedValueFlag = true;

@@ -17,4 +17,3 @@ if global.GridShow {
 		draw_line_color( X_MapMin, i + gridSize, X_MapMax, i + gridSize, gridColor, gridColor);
 }
 
-
