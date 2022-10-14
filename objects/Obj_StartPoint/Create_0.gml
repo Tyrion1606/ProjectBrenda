@@ -1,4 +1,4 @@
-HP = 10;
+/// @description 
 
 Selectable = true;
 Selected = false;

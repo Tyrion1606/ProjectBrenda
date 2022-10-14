@@ -1,8 +1,8 @@
 if (room == Rm_Construct){
-	draw_path(Path_Temp, 0, 0, true);
 
-	for(var i = 0 ; i < path_get_number(Path_Temp) ; i++){	
-		
+	draw_path(Path_Temp, 0, 0, true);
+		for(var i = 0 ; i < path_get_number(Path_Temp) ; i++){	
+	
 		// Sets the collors for the points
 		if (i == 0){	// First color + outline
 			draw_set_color(c_white);
@@ -19,4 +19,5 @@ if (room == Rm_Construct){
 	}
 	draw_set_color(c_white);
 }
+
 

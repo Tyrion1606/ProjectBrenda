@@ -30,6 +30,7 @@
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C69A2EA","properties":[],"isDnd":false,"objectId":{"name":"Obj_MainTower","path":"objects/Obj_MainTower/Obj_MainTower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":720.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_529B4B74","properties":[],"isDnd":false,"objectId":{"name":"Obj_StartPoint","path":"objects/Obj_StartPoint/Obj_StartPoint.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":144.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Sockets","instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path","pathId":null,"colour":4278190335,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -51,6 +52,7 @@
     {"name":"inst_30F1173D","path":"rooms/Rm_Construct/Rm_Construct.yy",},
     {"name":"inst_C69A2EA","path":"rooms/Rm_Construct/Rm_Construct.yy",},
     {"name":"inst_F213938","path":"rooms/Rm_Construct/Rm_Construct.yy",},
+    {"name":"inst_529B4B74","path":"rooms/Rm_Construct/Rm_Construct.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
