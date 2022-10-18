@@ -267,6 +267,7 @@
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},"order":63,},
     {"id":{"name":"Spr_Icon_Pause","path":"sprites/Spr_Icon_Pause/Spr_Icon_Pause.yy",},"order":2,},
     {"id":{"name":"Spr_StoredTurret_05","path":"sprites/Spr_StoredTurret_05/Spr_StoredTurret_05.yy",},"order":0,},
+    {"id":{"name":"Spr_icone","path":"sprites/Spr_icone/Spr_icone.yy",},"order":45,},
     {"id":{"name":"Spr_Tilemap_Componentsedit","path":"sprites/Spr_Tilemap_Componentsedit/Spr_Tilemap_Componentsedit.yy",},"order":44,},
     {"id":{"name":"spr_easy","path":"sprites/spr_easy/spr_easy.yy",},"order":18,},
     {"id":{"name":"Spr_Turret_04","path":"sprites/Spr_Turret_04/Spr_Turret_04.yy",},"order":1,},
@@ -283,6 +284,7 @@
     {"id":{"name":"Obj_Turret_02","path":"objects/Obj_Turret_02/Obj_Turret_02.yy",},"order":0,},
     {"id":{"name":"Obj_Button_NewGame","path":"objects/Obj_Button_NewGame/Obj_Button_NewGame.yy",},"order":3,},
     {"id":{"name":"Obj_Plus_T4FireDistance","path":"objects/Obj_Plus_T4FireDistance/Obj_Plus_T4FireDistance.yy",},"order":1,},
+    {"id":{"name":"Spr_button_insta","path":"sprites/Spr_button_insta/Spr_button_insta.yy",},"order":46,},
     {"id":{"name":"Scr_Path_SearchModes","path":"scripts/Scr_Path_SearchModes/Scr_Path_SearchModes.yy",},"order":2,},
     {"id":{"name":"Scr_Linked_SquaresBar_AltoAdjust","path":"scripts/Scr_Linked_SquaresBar_AltoAdjust/Scr_Linked_SquaresBar_AltoAdjust.yy",},"order":12,},
     {"id":{"name":"Spr_Spider_Right","path":"sprites/Spr_Spider_Right/Spr_Spider_Right.yy",},"order":1,},
@@ -408,6 +410,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"submin.ttf","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.0.49",
+    "IDEVersion": "2022.9.1.51",
   },
 }
