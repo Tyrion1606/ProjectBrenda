@@ -1,6 +1,6 @@
 Selected = false;
 move_snap(15, 32);
-id.x += 7;
+id.x += Obj_TimeLine.x mod 15;
 
 Type = "Obj_Enemy";
 
