@@ -7,10 +7,10 @@ Total_Waves = -1;
 for(var i = 0 ; i < ds_list_size(Waves) ; i++){
 	var ThisEntry = ds_list_find_value(Waves,i);
 	if(ThisEntry[_WAVE] > Total_Waves){
-		Total_Waves++;
+		Total_Waves = ThisEntry[_WAVE];
 		Remaining[Total_Waves] = 0;
 	}
-	Remaining[Total_Waves]++;
+	Remaining[ThisEntry[_WAVE]]++;	//Adiciona 1 na quantidade de inimigos na wave do inimigo sendo analizado
 }
 if(global.RestartFlag){
 	room_restart();

@@ -10,9 +10,9 @@ Position = id.x-Obj_TimeLine.x;
 if variable_global_exists("EnemyArray"){
 	var i = 0;
 	repeat(array_length(global.EnemyArray)){
-		show_debug_message(" " + string(i) + " | " + string(global.EnemyArray))
+		//show_debug_message(" " + string(i) + " | " + string(global.EnemyArray))
 		var temp = global.EnemyArray[i];
-		show_debug_message("temp: " + string(temp));
+		//show_debug_message("temp: " + string(temp));
 		if(temp.Position == Position){
 			DeservesToLive = false;
 			//show_debug_message("Foi destruido");

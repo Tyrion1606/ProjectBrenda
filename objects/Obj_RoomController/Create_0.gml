@@ -9,11 +9,9 @@ Triggered = false;
 Timer = 0
 Current_Wave = 0;
 
-global.LevelsData = Scr_LevelsDataLoad();	// recarrega os dados das waves
+global.LevelsData = Scr_LevelsDataLoad();	// LevelsData armazena as informações de Waves de todos os Levels, vindas do arquivo WaveData.txt
 
-// ==== estava no room start mas bugava ao ir e voltar do menú, arrumar depois ====
-//show_debug_message("[LevelsData]" + string(global.LevelsData))
-Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);
+Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);	// Armazena em uma DS_List as Waves do Level Atual
 
 #macro _MONEY 2
 global.Dinheiros = global.LevelDataArray[global.CurrentLevel][_MONEY];
@@ -22,5 +20,5 @@ timeline_index = Tln_FirstWaveStartTrigger_3sec;
 timeline_position = 0;
 timeline_running = true;
 
-DebugingGUIlock = false;
+DebugingGUIlock = true;
 

@@ -1,5 +1,4 @@
 // Returns the levels data
-
 function Scr_LevelsDataLoad(){
 	if(file_exists("WaveData.txt")){
 		var file = file_text_open_read("WaveData.txt");

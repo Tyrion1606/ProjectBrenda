@@ -2,13 +2,13 @@
 
 if(/*Triggered or */DebugingGUIlock){
 	//DebugingGUIlock = true;
-	draw_set_font(Fnt_General_LoRes);
+	draw_set_font(Fnt_General);
 
 	var str = "Remaining: "
 	for(var i = 0 ; i < array_length(Remaining) ; i++){
 		str+= string(Remaining[i]) + "|";
 	}
-	draw_text(25,25,str
+	draw_text(250,25,str
 					+"\nWave: " + string(Current_Wave) +"/" + string(Total_Waves)
 					+"\nLevel: " + string(global.CurrentLevel))
 }
