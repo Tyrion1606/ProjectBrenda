@@ -36,8 +36,8 @@
 	repeat(array_length(global.EnemyArray)){
 		TempLevelsData[i][level] = Obj_ValuePanel_LevelSet_Editor.Value-1;	// -1 cause in code it starts on "0" but user must see "Level 1"
 		TempLevelsData[i][wave] = Obj_ValuePanel_WaveSet_Editor.Value-1;	// -1 cause in code it starts on "0" but user must see "Wave 1"
-		TempLevelsData[i][enemy] = global.EnemyArray[j].Type
-		TempLevelsData[i][x_Position] = global.EnemyArray[j].x
+		TempLevelsData[i][enemy] = global.EnemyArray[j].Type;
+		TempLevelsData[i][x_Position] = global.EnemyArray[j].x-Obj_TimeLine.x;
 		i++;
 		j++;
 	}

@@ -1,5 +1,6 @@
 Selected = false;
 move_snap(15, 32);
+id.x += 7;
 
 Type = "Obj_Enemy";
 
