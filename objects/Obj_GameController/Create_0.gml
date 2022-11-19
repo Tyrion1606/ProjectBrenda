@@ -91,3 +91,15 @@ show_debug_overlay(true);
 #region Load Levels Data
 global.LevelsData = Scr_LevelsDataLoad();
 #endregion
+
+#region Oppening Delay
+/*
+var Method_Close_Oppening = function(){
+	if(room = Room_Oppening){
+		room_goto(MainMenu);
+	}
+}
+var Time_Source = time_source_create(time_source_game,1,time_source_units_seconds,Method_Close_Oppening);
+time_source_start(Time_Source);
+*/
+#endregion

@@ -11,8 +11,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "BG_Music",
+    "path": "audiogroups/BG_Music",
   },
   "soundFile": "Snd_noise.wav",
   "duration": 190.96445,

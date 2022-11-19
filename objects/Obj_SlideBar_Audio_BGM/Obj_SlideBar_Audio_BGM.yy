@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_SlideBar_Audio_MasterVolume",
+  "name": "Obj_SlideBar_Audio_BGM",
   "spriteId": {
     "name": "Spr_SlideBar_Bar",
     "path": "sprites/Spr_SlideBar_Bar/Spr_SlideBar_Bar.yy",
