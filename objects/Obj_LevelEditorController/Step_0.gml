@@ -7,3 +7,27 @@ if(ReloadWavesData_Flag){
 	ReloadWavesData_Flag = false;
 }
 
+
+#region Path Create and Save
+if (Flag_Path_Create_n_Save){
+	//var Point = 0;
+	var xValue = 0;
+	var yValue = 1;
+
+	/*var Points_Array =	[[0,0]
+						,[0,0]];*/
+						
+	var Points_Array;
+	
+	var Path_Size = path_get_number(Path_Temp);
+	for(var i = 0 ; i < Path_Size ; i++){
+		//Points_Array[i][Point] = i
+		Points_Array[0][i][xValue] = path_get_point_x(Path_Temp,i)/PCBResizeValue;
+		Points_Array[0][i][yValue] = path_get_point_y(Path_Temp,i)/PCBResizeValue;
+	}
+	//show_debug_message(Points_Array)
+	Fn_Data_Save_txt("Paths", Points_Array);
+	
+	Flag_Path_Create_n_Save = false;
+}
+#endregion
