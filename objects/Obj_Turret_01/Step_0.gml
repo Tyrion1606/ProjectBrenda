@@ -11,7 +11,7 @@ if (Firing){
 		i=0;
 		
 		// som:
-		audio_play_sound(Snd_Pop_Vocal,1,false);
+		audio_play_sound(Snd_Pop_Vocal,1,false,Obj_AudioController.Audio_Volume.Effects);
 	}
 }
 

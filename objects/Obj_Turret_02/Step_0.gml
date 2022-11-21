@@ -33,7 +33,7 @@ if (Firing && collision_circle(x, y, AtackRange, Obj_Enemy, false, true)){
 	alarm[0] = Cooldown;
 	
 	// Som:
-	audio_play_sound(Snd_Tum_Vocal,1,false);
+	audio_play_sound(Snd_Tum_Vocal,1,false,Obj_AudioController.Audio_Volume.Effects);
 }
 
 #endregion
