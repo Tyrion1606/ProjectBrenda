@@ -30,25 +30,47 @@ function Fn_Data_Load_txt(File_Name){
 /// @function						Fn_Data_Save_ini(File_Name, Data);
 /// @param {string}		File_Name	The name of the Archive to Save the data on
 /// @param {Data}		Data		The Data to save on it
-/// @param {String}		Key			The Name for the Data on the File(the key)
+/// @param {String}		Key			The Name for the Data on the File
+/// @param {String}		Section		The Section Where the data will be written
 /// @description					Saves Data on a INI file
-function Fn_Data_Save_ini(File_Name, Data, Key, Section = "General"){
+function Fn_Data_Save_ini(File_Name, Data, Key = "Key", Section = "General"){
 	ini_open(File_Name);
 	
 	switch (typeof(Data)){
 		case "struct":
-			Fn_Scan_n_Save(File_Name, Data, "", Key);
+			Fn_Struct_Scan_n_Save(File_Name, Data, "", Section);
 		break;
 		default:
 			ini_write_string(Section, Key, Data);
 		break;
 	}
 	
-	
 	ini_close();
 }
 
-function Fn_Scan_n_Save(File_Name, Data, Key, Section){
+/// @function						Fn_Data_Load_ini(File_Name, Key, Section);
+/// @param {string}		File_Name	Name of the Archive to Save the data on
+/// @param {String}		Section		Section to search on
+/// @param {String}		Key			Key of the data do Load
+/// @param {Bol}		isReal		If true reads as a real, if false read as a String
+/// @description					Loads Data From a INI File
+function Fn_Data_Load_ini(File_Name, Section, Key, isReal = true){
+	ini_open(File_Name);
+		if isReal {
+			var Data = ini_read_real(Section, Key, -1);
+		} else {
+			var Data = ini_read_string(Section, Key, "Data Dont Exist in this Location");
+		}
+		
+	ini_close();
+	return Data;
+}
+
+
+#region Funçoes auxiliares
+
+#region Função usada para recurção em "Fn_Data_Save_ini"
+function Fn_Struct_Scan_n_Save(File_Name, Data, Key, Section){
 	var All_Struct_Variables_Name_Array = variable_struct_get_names(Data);	// Takes a list of all Struct Variables
 	var Struct_Size = variable_struct_names_count(Data);	// Takes the number of variables
 			
@@ -62,11 +84,17 @@ function Fn_Scan_n_Save(File_Name, Data, Key, Section){
 		}
 		
 		if is_struct(Value){
-			Fn_Scan_n_Save(File_Name, Value, Key+Name, Section);
+			Fn_Struct_Scan_n_Save(File_Name, Value, Key+Name+":", Section);
 		} else {
-			ini_write_string(Section, Key+"_"+Name, Value);
+			ini_write_string(Section, Key+Name, Value);
 		}
-		
 	}
-
 }
+#endregion
+
+#endregion
+
+
+
+
+
