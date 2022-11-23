@@ -18,10 +18,10 @@ if(global.RestartFlag){
 }
 
 
-// Fill the current Path with the points
+// Fill the Path_Running with the points
 var Point_x = 0;
 var Point_y = 1;
 path_clear_points(Path_Running);
-for(var i = 0 ; i < array_length(Paths_Array[0]) ; i++){
-	path_add_point(Path_Running, Paths_Array[0][i][Point_x], Paths_Array[0][i][Point_y], 100);
+for(var i = 0 ; i < array_length(Path_Array[0]) ; i++){
+	path_add_point(Path_Running, Path_Array[0][i][Point_x], Path_Array[0][i][Point_y], 100);
 }
