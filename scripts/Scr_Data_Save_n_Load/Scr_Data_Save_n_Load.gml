@@ -1,6 +1,6 @@
 /// @function						Fn_Data_Save_txt(File_Name, Data);
 /// @param {string}		File_Name	The name of the Archive to Save the data on
-/// @param {Data}		Data		The Data to save on it
+/// @param {Any}		Data		The Data to save on it
 /// @description					Saves Data on a TXT file
 function Fn_Data_Save_txt(File_Name, Data){
 	var JsonString = json_stringify(Data);		//Turns the data into a Json String
@@ -29,7 +29,7 @@ function Fn_Data_Load_txt(File_Name){
 
 /// @function						Fn_Data_Save_ini(File_Name, Data);
 /// @param {string}		File_Name	The name of the Archive to Save the data on
-/// @param {Data}		Data		The Data to save on it
+/// @param {Any}		Data		The Data to save on it
 /// @param {String}		Key			The Name for the Data on the File
 /// @param {String}		Section		The Section Where the data will be written
 /// @description					Saves Data on a INI file
@@ -52,17 +52,19 @@ function Fn_Data_Save_ini(File_Name, Data, Key = "Key", Section = "General"){
 /// @param {string}		File_Name	Name of the Archive to Save the data on
 /// @param {String}		Section		Section to search on
 /// @param {String}		Key			Key of the data do Load
-/// @param {Bol}		isReal		If true reads as a real, if false read as a String
+/// @param {Bool}		isReal		If true reads as a real, if false read as a String
 /// @description					Loads Data From a INI File
 function Fn_Data_Load_ini(File_Name, Section, Key, isReal = true){
+	var Data
+	
 	ini_open(File_Name);
 		if isReal {
-			var Data = ini_read_real(Section, Key, -1);
+			Data = ini_read_real(Section, Key, -1);
 		} else {
-			var Data = ini_read_string(Section, Key, "Data Dont Exist in this Location");
+			Data = ini_read_string(Section, Key, "Data Dont Exist in this Location");
 		}
-		
 	ini_close();
+	
 	return Data;
 }
 

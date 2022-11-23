@@ -5,14 +5,14 @@
 if(EnemiesCount < EnemiesWave ){
 	// Select the enemy
 	// Randomize enemy enemy to array size
-	enemy = enemies[irandom_range(0, array_length(enemies)-1)];
+	var enemy = enemies[irandom_range(0, array_length(enemies)-1)];
 
 	// Instanciate an enemy
 	instance_create_layer(5, 5, "Instances", enemy); 
 
 	// Reset alarm
 	EnemiesCount++;
-	alarm[0] = room_speed * CreationDelay;
+	alarm[0] = game_get_speed(gamespeed_fps) * CreationDelay;
 }
 else{
 	// reset the timer to iniciate next wave

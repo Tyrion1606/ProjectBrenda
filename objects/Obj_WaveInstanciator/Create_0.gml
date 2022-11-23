@@ -15,4 +15,4 @@ alarm[1] = EnemiesLevel;
 
 //show_debug_message(room_speed);
 
-timeline_speed = 1/room_speed;	// Sets the 'Moment' value of an timeline to be in seconds instead of steps
+timeline_speed = 1/game_get_speed(gamespeed_fps);	// Sets the 'Moment' value of an timeline to be in seconds instead of steps

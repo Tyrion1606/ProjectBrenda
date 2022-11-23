@@ -1,6 +1,6 @@
 ReloadWavesData_Flag = true;
 Flag_Path_Create_n_Save = false;
-PCBResizeValue = 0.9;
+PCBResizeValue = 0.85;
 
 if (room == Rm_Construct){
 	var PCB_Layer = layer_get_id("PCB");

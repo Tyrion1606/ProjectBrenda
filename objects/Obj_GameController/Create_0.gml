@@ -74,6 +74,11 @@ global.LevelsData = Scr_LevelsDataLoad();
 	window_center();	// Grants the Centered Window
 #endregion
 
+#region Other Local Variables Declaration
+GridSize_ModFactor = 1;
+x_Offset = 0;
+#endregion
+
 #region Oppening Delay
 /*
 var Method_Close_Oppening = function(){
