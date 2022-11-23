@@ -11,4 +11,3 @@ var Height = sprite_get_height(PCB_Sprite)*Obj_LevelEditorController.PCBResizeVa
 	RightLimit = LeftLimit + Width;
 	TopLimit = layer_get_y(PCB_Layer);
 	BottomLimit = TopLimit + Height;
-

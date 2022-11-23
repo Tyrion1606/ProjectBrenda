@@ -25,3 +25,23 @@ path_clear_points(Path_Running);
 for(var i = 0 ; i < array_length(Path_Array[0]) ; i++){
 	path_add_point(Path_Running, Path_Array[0][i][Point_x], Path_Array[0][i][Point_y], 100);
 }
+
+
+//Sets the Tilemap to the MapSize
+	var LayerID = layer_get_id("MapTiles");
+	var TileMapID = layer_tilemap_get_id(LayerID);
+	
+	tilemap_set_width(TileMapID,21);
+	tilemap_set_height(TileMapID,16);
+	tilemap_x(TileMapID,150);
+	
+// Loads the Tiles on the map
+var Tiles_array = Fn_Data_Load_txt("Tiles_array");
+print(Tiles_array)
+	//desenha do array
+	for (var i = 0; i < tilemap_get_width(TileMapID); i++) {
+		for (var j = 0; j < tilemap_get_height(TileMapID); j++) {
+			tilemap_set(TileMapID, Tiles_array[i][j], i, j);
+			print(Tiles_array[i][j])
+		}
+	}

@@ -7,7 +7,6 @@ if(ReloadWavesData_Flag){
 	ReloadWavesData_Flag = false;
 }
 
-
 #region Path Create and Save
 if (Flag_Path_Create_n_Save){
 	//var Point = 0;
@@ -31,3 +30,19 @@ if (Flag_Path_Create_n_Save){
 	Flag_Path_Create_n_Save = false;
 }
 #endregion
+
+if (Flag_Map_Tiles_Save){
+	var LayerID = layer_get_id("Construct_MapTiles");
+	var TileMapID = layer_tilemap_get_id(LayerID);
+
+	//cria um array que armazena todos os dados de todos os tiles do tilemap
+	var Tiles_array;
+	for (var i = 0; i < tilemap_get_width(TileMapID); i++) {
+		for (var j = 0; j < tilemap_get_height(TileMapID); j++) {
+		    Tiles_array[i][j] = tilemap_get(TileMapID, i, j);
+		}
+	}
+	print(Tiles_array)
+	Fn_Data_Save_txt("Tiles_array",Tiles_array)
+	Flag_Map_Tiles_Save = false
+}

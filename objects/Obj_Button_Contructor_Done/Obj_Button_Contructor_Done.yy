@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/GUI_Components/Buttons.yy",
+    "name": "LabeledButtons",
+    "path": "folders/Objects/GUI_Components/Buttons/LabeledButtons.yy",
   },
 }
