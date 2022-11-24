@@ -71,7 +71,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "LevelRooms",
-    "path": "folders/Rooms/LevelRooms.yy",
+    "name": "LevelRooms [Obsolete]",
+    "path": "folders/Rooms/LevelRooms [Obsolete].yy",
   },
 }
