@@ -4,7 +4,7 @@ Flag_Selected = false;
 Label = "[LABEL]"
 LabelSize = 2;
 Value = 0;	// THIS MUST BE DEFINED IN THE CHILD!!! MANDATORILY!!!
-Position_Slider = (Value*(id.sprite_width*0.90))+id.x+(id.sprite_width/20);
+
 
 #region Child will need this:
 // Any child needs to have this in its "Create Event"
