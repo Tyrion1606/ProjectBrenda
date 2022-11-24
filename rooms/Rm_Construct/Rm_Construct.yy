@@ -19,7 +19,6 @@
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"ConstructionTools","visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"ConfigObjects_Contructor","instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_173BAC0B","properties":[],"isDnd":false,"objectId":{"name":"Obj_LevelEditorController","path":"objects/Obj_LevelEditorController/Obj_LevelEditorController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":-32.0,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_189BB227","properties":[],"isDnd":false,"objectId":{"name":"Obj_mudaTile","path":"objects/Obj_mudaTile/Obj_mudaTile.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,},
           ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"ConfigObjects","instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -59,7 +58,6 @@
     {"name":"inst_529B4B74","path":"rooms/Rm_Construct/Rm_Construct.yy",},
     {"name":"inst_52CFD0D3","path":"rooms/Rm_Construct/Rm_Construct.yy",},
     {"name":"inst_5AEC4F9D","path":"rooms/Rm_Construct/Rm_Construct.yy",},
-    {"name":"inst_189BB227","path":"rooms/Rm_Construct/Rm_Construct.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

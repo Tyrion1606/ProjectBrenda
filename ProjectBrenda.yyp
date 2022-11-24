@@ -15,7 +15,6 @@
     {"id":{"name":"spr_musicon","path":"sprites/spr_musicon/spr_musicon.yy",},"order":50,},
     {"id":{"name":"Obj_ValuePanel","path":"objects/Obj_ValuePanel/Obj_ValuePanel.yy",},"order":0,},
     {"id":{"name":"Obj_Plus_T4Damage","path":"objects/Obj_Plus_T4Damage/Obj_Plus_T4Damage.yy",},"order":0,},
-    {"id":{"name":"Obj_mudaTile","path":"objects/Obj_mudaTile/Obj_mudaTile.yy",},"order":13,},
     {"id":{"name":"spr_restart","path":"sprites/spr_restart/spr_restart.yy",},"order":70,},
     {"id":{"name":"spr_sell","path":"sprites/spr_sell/spr_sell.yy",},"order":79,},
     {"id":{"name":"Obj_PlaceOnWave_Shadow_2","path":"objects/Obj_PlaceOnWave_Shadow_2/Obj_PlaceOnWave_Shadow_2.yy",},"order":2,},
