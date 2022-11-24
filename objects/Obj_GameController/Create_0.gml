@@ -1,6 +1,29 @@
 
 show_debug_overlay(true);
 
+
+#region Set initial Resolution and Screen Size
+	var wUserResolution = display_get_width();	//Get the Users Display Width resolution
+
+	var wWindowSize = wUserResolution*4/5;		//Take 4/5 of the screen size to the Window Size on opening
+	var hWindowSize = wWindowSize/16*9;			//Mantain a 16x9 Proportion based on Width Window Size
+	//show_debug_message("[G.C.] " + string(wWindowSize))
+	//show_debug_message("[G.C.] " + string(hWindowSize))
+	
+	window_set_size(wWindowSize,hWindowSize);	// Sets the size
+	window_center();	// Grants the Centered Window
+#endregion
+
+#region Other Local Variables Declaration
+GridSize_ModFactor = 1;
+x_Offset = 0;
+#endregion
+
+#region Initialising the Settings
+	global.GridShow = false;
+	window_set_fullscreen(Fn_Data_Load_ini("Game_Settings", "Display", "FullScreen"));	// Carrega dados de Fullscreen
+#endregion
+
 #region  Initialising the GameControll GLOBAL Variables
 	global.TempRoomStack = ds_stack_create();	// Stores the last rooms when its needed. (for setings screen for example)
 	global.LostTrigger = false;
@@ -54,29 +77,6 @@ global.LevelsData = Scr_LevelsDataLoad();
 		},
 		Points : 5
 	};
-#endregion
-
-#region Initialising the Settings
-	global.GridShow = false;
-	window_set_fullscreen(Fn_Data_Load_ini("Game_Settings", "Display", "FullScreen"));	// Carrega dados de Fullscreen
-	
-#endregion
-
-#region Set initial Resolution and Screen Size
-	var wUserResolution = display_get_width();	//Get the Users Display Width resolution
-
-	var wWindowSize = wUserResolution*4/5;		//Take 4/5 of the screen size to the Window Size on opening
-	var hWindowSize = wWindowSize/16*9;			//Mantain a 16x9 Proportion based on Width Window Size
-	//show_debug_message("[G.C.] " + string(wWindowSize))
-	//show_debug_message("[G.C.] " + string(hWindowSize))
-	
-	window_set_size(wWindowSize,hWindowSize);	// Sets the size
-	window_center();	// Grants the Centered Window
-#endregion
-
-#region Other Local Variables Declaration
-GridSize_ModFactor = 1;
-x_Offset = 0;
 #endregion
 
 #region Oppening Delay

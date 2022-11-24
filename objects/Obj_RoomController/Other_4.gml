@@ -22,8 +22,8 @@ if(global.RestartFlag){
 var Point_x = 0;
 var Point_y = 1;
 path_clear_points(Path_Running);
-for(var i = 0 ; i < array_length(Path_Array[0]) ; i++){
-	path_add_point(Path_Running, Path_Array[0][i][Point_x], Path_Array[0][i][Point_y], 100);
+for(var i = 0 ; i < array_length(Path_Array[global.CurrentLevel]) ; i++){
+	path_add_point(Path_Running, Path_Array[global.CurrentLevel][i][Point_x], Path_Array[global.CurrentLevel][i][Point_y], 100);
 }
 
 
@@ -41,7 +41,6 @@ print(Tiles_array)
 	//desenha do array
 	for (var i = 0; i < tilemap_get_width(TileMapID); i++) {
 		for (var j = 0; j < tilemap_get_height(TileMapID); j++) {
-			tilemap_set(TileMapID, Tiles_array[i][j], i, j);
-			print(Tiles_array[i][j])
+			tilemap_set(TileMapID, Tiles_array[global.CurrentLevel][i][j], i, j);
 		}
 	}

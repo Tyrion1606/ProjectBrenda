@@ -7,7 +7,7 @@ function Fn_Data_Save_txt(File_Name, Data){
 	var file = file_text_open_write(File_Name);	//Open(create if necessary) a file to write on it
 	file_text_write_string(file, JsonString);	//Writes the Json String on the file
 	file_text_close(file);						//Closes the file
-	show_debug_message("\n[Scr.Data_Save] DADOS SALVOS EM: " + File_Name);
+	show_debug_message("[Scr.Data_Save] DADOS SALVOS EM: " + File_Name);
 }
 
 /// @function						Fn_Data_Load_txt(File_Name);
@@ -19,7 +19,7 @@ function Fn_Data_Load_txt(File_Name){
 		var JsonString = file_text_read_string(file);	//Read the Json string on the file
 		file_text_close(file);							//Closes the file
 		var Data = json_parse(JsonString);				//Decodify Json String into the original Data
-		show_debug_message("[Scr.Data_Load] DADOS DE \"" + File_Name + "\" FORAM LIDOS:\n");
+		show_debug_message("[Scr.Data_Load] DADOS DE \"" + File_Name + "\" FORAM LIDOS:");
 		return Data
 	
 	} else {	// Se o arquivo de NÃO existe
