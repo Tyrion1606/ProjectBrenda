@@ -3,7 +3,11 @@ Flag_Path_Create_n_Save = false;
 Flag_Map_Tiles_Save = false;
 PCBResizeValue = 0.85;
 
+
+
 if (room == Rm_Construct){
+	Tile_Index = 1;
+	
 	var PCB_Layer = layer_get_id("PCB");
 	var PCB_Element = layer_background_get_id(PCB_Layer);
 	layer_background_xscale(PCB_Element, PCBResizeValue);
