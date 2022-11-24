@@ -1,13 +1,13 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet_MapComponents",
+  "name": "TileSet_MapComponents_Construct_08125",
   "spriteId": {
-    "name": "Spr_Tilemap_Components_4x",
-    "path": "sprites/Spr_Tilemap_Components_4x/Spr_Tilemap_Components_4x.yy",
+    "name": "Spr_Tilemap_Components_Construct_08125",
+    "path": "sprites/Spr_Tilemap_Components_Construct_08125/Spr_Tilemap_Components_Construct_08125.yy",
   },
-  "tileWidth": 48,
-  "tileHeight": 48,
+  "tileWidth": 39,
+  "tileHeight": 39,
   "tilexoff": 0,
   "tileyoff": 0,
   "tilehsep": 0,

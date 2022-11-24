@@ -11,8 +11,11 @@ if (room == Rm_Construct){
 	#endregion
 	
 	#region Path Mode OFF
-		// Set Tile
-		if(Obj_CheckBox_PathDrawMode.image_index == 0){
+		var On_MainTower_Position = instance_position(mouse_x, mouse_y, Obj_MainTower);
+		var On_StartPoint_Position = instance_position(mouse_x, mouse_y, Obj_StartPoint);
+		
+		// Set Tile if its not on the Start or End point
+		if(Obj_CheckBox_PathDrawMode.image_index == 0 and !On_MainTower_Position and !On_StartPoint_Position){
 			var LayerID = layer_get_id("Construct_MapTiles");
 			var TileMapID = layer_tilemap_get_id(LayerID);
 

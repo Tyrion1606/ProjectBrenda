@@ -14,7 +14,7 @@ global.LevelsData = Scr_LevelsDataLoad();	// LevelsData armazena as informaçõe
 
 Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);	// Armazena em uma DS_List as Waves do Level Atual
 
-Path_Array = Fn_Data_Load_txt("Paths");	// Array with the paths ans its points
+Paths_Array = Fn_Data_Load_txt("Paths");	// Array with the paths ans its points
 
 #macro _MONEY 2
 global.Dinheiros = global.LevelDataArray[global.CurrentLevel][_MONEY];

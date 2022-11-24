@@ -17,24 +17,26 @@ if(global.RestartFlag){
 	global.RestartFlag = false;
 }
 
-
 // Fill the Path_Running with the points
-var Point_x = 0;
-var Point_y = 1;
+var Point_x = 0;	// Avoid HardCode
+var Point_y = 1;	// Avoid HardCode
 path_clear_points(Path_Running);
-for(var i = 0 ; i < array_length(Path_Array[global.CurrentLevel]) ; i++){
-	path_add_point(Path_Running, Path_Array[global.CurrentLevel][i][Point_x], Path_Array[global.CurrentLevel][i][Point_y], 100);
+print("level: ", global.CurrentLevel);
+print(Paths_Array);
+print(Paths_Array[global.CurrentLevel]);
+for(var i = 0 ; i < array_length(Paths_Array[global.CurrentLevel]) ; i++){
+	path_add_point(Path_Running, Paths_Array[global.CurrentLevel][i][Point_x], Path_Array[global.CurrentLevel][i][Point_y], 100);
 }
 
 
 //Sets the Tilemap to the MapSize
-	var LayerID = layer_get_id("MapTiles");
-	var TileMapID = layer_tilemap_get_id(LayerID);
-	
-	tilemap_set_width(TileMapID,21);
-	tilemap_set_height(TileMapID,16);
-	tilemap_x(TileMapID,150);
-	
+var LayerID = layer_get_id("MapTiles");
+var TileMapID = layer_tilemap_get_id(LayerID);
+tilemap_set_width(TileMapID,21);
+tilemap_set_height(TileMapID,16);
+tilemap_x(TileMapID,150);
+tilemap_y(TileMapID,0);
+
 // Loads the Tiles on the map
 var Tiles_array = Fn_Data_Load_txt("Tiles_array");
 print(Tiles_array)

@@ -1,7 +1,11 @@
 /// @function						print(value)
 /// @description					Print anything saying the [caller] and the {event} that printed it.
 function print(Value = "Empty Print"){
-	show_debug_message("["+string(object_get_name(event_object))+"]{" + Events_Lookup_Table(event_number) +"}: " + string(Value));
+	var Text = ("["+string(object_get_name(event_object))+"]{" + Events_Lookup_Table(event_number) +"}: ");
+	for (var i = 0; i < argument_count; i++){
+        Text += string(argument[i]);
+    }
+	show_debug_message(Text);
 }
 
 /// @function						Events_Lookup_Table(Event_number)
@@ -16,6 +20,9 @@ function Events_Lookup_Table(Event_number){
 	        break;
 	    case 54:
 	        return "ev_global_right_press"
+	        break;
+	    case 4:
+	        return "Room_start"
 	        break;
 	    default:
 	        return string(Event_number)
