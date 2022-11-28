@@ -8,7 +8,7 @@
 function Scr_PutObj(PutModeSelection){
 	// Código usando apenas objetos
 	if(PutModeSelection = 0){
-		if(Selected & (AntibugDelay <= 0) & (global.Dinheiros >= TurretValue) & (place_empty(id.x, id.y,Obj_Turret, Obj_Path))){
+		if(Selected & (AntibugDelay <= 0) & (global.Dinheiros >= TurretValue) & (place_empty(id.x, id.y,Obj_Turret/*,Obj_Path*/))){		// uncoment and ensure you have an "Obj_Path" if you want to use this code
 			instance_create_layer(id.x, id.y, "Instances", TurretObject);
 			global.Dinheiros -= TurretValue;
 		}
@@ -92,7 +92,6 @@ function Scr_PutObj(PutModeSelection){
 		var Comparison_5 = !position_meeting(id.x, id.y,Obj_Turret)
 		
 		show_debug_message("[PutObj Script]" + string(Comparison_1) + string(Comparison_2) + string(Comparison_3) + string(Comparison_4) + string(Comparison_5));
-		
 		
 		if(Comparison_1
 			&& Comparison_2

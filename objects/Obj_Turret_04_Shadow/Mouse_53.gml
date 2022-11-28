@@ -8,7 +8,7 @@ if(Selected and AntibugDelay <= 0 and not PlaceTurret){
 	// 4th - Check for the path at botton border of the turret (-1 for adjust and avoid bugs)
 	// 5th - Check for the path at right border of the turret (-1 for adjust and avoid bugs)
 	// 6th - Check for turrets at the point of click
-	TileMapID = layer_tilemap_get_id("MapTiles");
+	var TileMapID = layer_tilemap_get_id("MapTiles");
 	var PathTileID = 3;
 	if(tile_get_index(tilemap_get_at_pixel(TileMapID, id.x, id.y - sprite_height/2)) != PathTileID
 		&& tile_get_index(tilemap_get_at_pixel(TileMapID, id.x - sprite_height/2, id.y)) != PathTileID

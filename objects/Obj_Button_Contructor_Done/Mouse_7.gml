@@ -1,0 +1,2 @@
+Obj_LevelEditorController.Flag_Path_Create_n_Save = true;
+Obj_LevelEditorController.Flag_Map_Tiles_Save = true;

@@ -50,3 +50,6 @@ draw_text_transformed(Obj_Inventory.x + (Obj_Inventory.sprite_width/2), room_hei
 	draw_text_transformed(room_width/18,(room_height/64)+64,string(Current_Wave+1) +"/" + string(Total_Waves+1), 4,4,0)	// +1 cause the user needs to see "Wave 1" instead "Wave 0"
 	
 #endregion
+
+
+draw_path(Path_Running,0,0,true);

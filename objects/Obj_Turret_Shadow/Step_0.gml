@@ -1,8 +1,3 @@
-SnapSelection = 2	// Selects what Snap system to use, based on the Index above:
-					// '0' = GameMaker's Snap + half size correction (it moves half Square)
-					// '1' = Álex's Snap (it moves half Square only if the mouse is right betheen 2 squares)
-					// '2' = Base Based Snap (It follows the Base position, that have it origin on [0,0], so it can use GameMaker's Snap jusf for full Squares)
-
 if (AntibugDelay > 0){
 	// The antibug logic, explaned in 'Create' code, where the variable "AntibugDelay" is created
 	AntibugDelay--; 

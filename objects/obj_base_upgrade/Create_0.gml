@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+event_inherited();
+
 Name = "BASE UPGRADE"; // Name of the upgrade
 Description = "Generic description"; // Description of the upgrade
 

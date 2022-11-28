@@ -1,5 +1,7 @@
 ReloadWavesData_Flag = true;
-PCBResizeValue = 0.9;
+Flag_Path_Create_n_Save = false;
+Flag_Map_Tiles_Save = false;
+PCBResizeValue = 0.85;
 
 if (room == Rm_Construct){
 	var PCB_Layer = layer_get_id("PCB");
@@ -21,6 +23,16 @@ if (room == Rm_Construct){
 	RightLimit = LeftLimit + Width;
 	TopLimit = layer_get_y(PCB_Layer);
 	BottomLimit = TopLimit + Height;
+	
+	//Sets the Tilemap to the MapSize
+	var LayerID = layer_get_id("Construct_MapTiles");
+	var TileMapID = layer_tilemap_get_id(LayerID);
+	
+	tilemap_set_width(TileMapID,21);
+	tilemap_set_height(TileMapID,16);
+	tilemap_x(TileMapID,262)
+	tilemap_y(TileMapID,5)
+
 }
 
 

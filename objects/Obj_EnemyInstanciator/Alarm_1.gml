@@ -9,5 +9,5 @@ if (((EnemiesWave / 3) % 3) == 0 )
 
 WaveCount++; // Increase the wave count
 // Start the next wave
-alarm[0] = room_speed * CreationDelay;
+alarm[0] = game_get_speed(gamespeed_fps) * CreationDelay;
 

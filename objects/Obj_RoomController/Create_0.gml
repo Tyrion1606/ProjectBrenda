@@ -1,4 +1,4 @@
-timeline_speed = 1/room_speed;	// Sets the 'Moment' value of an timeline to be in seconds instead of steps
+timeline_speed = 1/game_get_speed(gamespeed_fps);	// Sets the 'Moment' value of an timeline to be in seconds instead of steps
 //WaveClean = true;
 
 #macro _WAVE 0
@@ -8,10 +8,13 @@ timeline_speed = 1/room_speed;	// Sets the 'Moment' value of an timeline to be i
 Triggered = false;
 Timer = 0
 Current_Wave = 0;
+Total_Waves = 0;
 
 global.LevelsData = Scr_LevelsDataLoad();	// LevelsData armazena as informações de Waves de todos os Levels, vindas do arquivo WaveData.txt
 
 Waves = Scr_WaveDataLoad(global.CurrentLevel, global.LevelsData);	// Armazena em uma DS_List as Waves do Level Atual
+
+Path_Array = Fn_Data_Load_txt("Paths");	// Array with the paths ans its points
 
 #macro _MONEY 2
 global.Dinheiros = global.LevelDataArray[global.CurrentLevel][_MONEY];

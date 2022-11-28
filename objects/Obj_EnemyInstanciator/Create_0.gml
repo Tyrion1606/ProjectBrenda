@@ -13,4 +13,4 @@ enemies = [Obj_Enemy,Obj_Enemy_2,Obj_Enemy_3]; // Declares enemy types
 
 alarm[1] = EnemiesLevel;
 
-show_debug_message(room_speed);
+show_debug_message(game_get_speed(gamespeed_fps));

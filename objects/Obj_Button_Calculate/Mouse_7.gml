@@ -17,17 +17,18 @@
 */
 
 #region Clear this Wave
+	var TempLevelsData;
 	var i = 0;
 	if (file_exists("WaveData.txt")) {
-		var TempLevelsData = Scr_LevelsDataLoad();	// Carrega um array com as informações já presentes no arquivo de dados das waves
+		TempLevelsData = Scr_LevelsDataLoad();	// Carrega um array com as informações já presentes no arquivo de dados das waves
 		// Apaga tudo que há nesta Wave especifica
-		for(var i = 0 ; i < array_length(TempLevelsData) ; i++){
+		for(i = 0 ; i < array_length(TempLevelsData) ; i++){
 			if(Obj_ValuePanel_LevelSet_Editor.Value-1 == TempLevelsData[i][level] and Obj_ValuePanel_WaveSet_Editor.Value-1 == TempLevelsData[i][wave]){	
 				array_delete(TempLevelsData, i, 1);
 				i--;
 			}
 		}
-		var i = array_length(TempLevelsData);	// Continua do ultimo indice caso o arquivo exista (0 caso não exista, olhe acima do if para entender o motivo)
+		i = array_length(TempLevelsData);	// Continua do ultimo indice caso o arquivo exista (0 caso não exista, olhe acima do if para entender o motivo)
 	}
 #endregion
 

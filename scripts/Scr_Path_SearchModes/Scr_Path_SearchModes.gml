@@ -9,14 +9,14 @@ function Scr_Path_SearchFurtherEnemy(Range){
 		var Further;						// Creates a temporary Variable to hold the Current further enemy while calculating
 		
 		//Returns ,in the DSlist, the ID of any 'Obj_Enemy'(and children) that colides with a circle with a radius of "range" centered in the caller
-		collision_circle_list(id.x, id.y, Range, Obj_Enemy, false, true, EnemyList,false);	
+		var n_Collisions = collision_circle_list(id.x, id.y, Range, Obj_Enemy, false, true, EnemyList,false);	
 		
 		if (!ds_list_empty(EnemyList)){		// Checks if the list isn't empty, in other words: if there is some target in the range
 			
 			Further = ds_list_find_value(EnemyList, 0);		// For a Future comparation, Further starts by being the first object of the list
 			
 			// It loops all arround the DSlist to search for the further one
-			for (var j = 1 ; j < ds_list_size(EnemyList) ; j++){
+			for (var j = 1 ; j < n_Collisions ; j++){
 				
 				// Its important to check the current existence status of the 'Further' in any loop to avoid bugs/crashes when the current 'Further'
 				// Just dies during the calculation, in this case, if the further no more exists We break the 'for' loop
