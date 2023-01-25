@@ -23,9 +23,8 @@ var Point_y = 1;	// Avoid HardCode
 path_clear_points(Path_Running);
 print("level: ", global.CurrentLevel);
 print(Paths_Array);
-print(Paths_Array[global.CurrentLevel]);
 for(var i = 0 ; i < array_length(Paths_Array[global.CurrentLevel]) ; i++){
-	path_add_point(Path_Running, Paths_Array[global.CurrentLevel][i][Point_x], Path_Array[global.CurrentLevel][i][Point_y], 100);
+	path_add_point(Path_Running, Paths_Array[global.CurrentLevel][i][Point_x], Paths_Array[global.CurrentLevel][i][Point_y], 100);
 }
 
 
